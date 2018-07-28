@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lumi]]></title><description><![CDATA[Progresso do jogo de RPG Lumi feito no RPG Maker MV]]></description><link>https://bsides.github.io/lumirpg</link><generator>RSS for Node</generator><lastBuildDate>Sat, 28 Jul 2018 08:50:33 GMT</lastBuildDate><item><title><![CDATA[Muita mudança]]></title><description><![CDATA[Resolvi aprender mais sobre o  Gatsby  e resolvi colocar
+esse blog à prova. O sistema estava em Jekyll e, apesar de muito bom e prático,
+não…]]></description><link>https://bsides.github.io/lumirpg/2018-07-28-muita-mudanca/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2018-07-28-muita-mudanca/</guid><pubDate>Sat, 28 Jul 2018 05:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Resolvi aprender mais sobre o &lt;a href=&quot;http://gatsbyjs.org&quot;&gt;Gatsby&lt;/a&gt; e resolvi colocar
+esse blog à prova. O sistema estava em Jekyll e, apesar de muito bom e prático,
+não há nada melhor que aprender uma ferramenta nova.&lt;/p&gt;
+&lt;p&gt;Migrei todo o conteúdo e até que foi bem simples. Estou usando a versão 2 dele
+com o gerador de blog padrão, que já vem com leitor de markdown, o que é ótimo.&lt;/p&gt;
+&lt;h2&gt;Prioridades&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Verificar as imagens&lt;/li&gt;
+&lt;li&gt;Migrar os códigos do &lt;a href=&quot;https://shopify.github.io/liquid/&quot;&gt;Liquid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Migrar o post sobre as cores da windowskin… esse pode dar muito trabalho&lt;/li&gt;
+&lt;li&gt;Botar pra funcionar os emojis nos posts&lt;/li&gt;
+&lt;li&gt;Ah, e os comentários do disqus!&lt;/li&gt;
+&lt;li&gt;Falar sobre o projeto!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;O projeto&lt;/h2&gt;
+&lt;p&gt;Essa prioridade foi rápida!&lt;/p&gt;
+&lt;p&gt;Eu não estou mais trabalhando nesse projeto tanto pra poder postar algo novo.
+Do começo 2017 pra cá muito mudou na minha vida e o RPG Maker MV também. Está
+na versão 1.6.1, a versão do PIXI foi pra 4 e parece muito melhor pra lidar
+com plugins de forma geral.&lt;/p&gt;
+&lt;p&gt;Pra eu tentar encerrar esse projeto com alguma coisa, talvez eu diminua o
+escopo o máximo possível - ainda estou estudando essa posibilidade.&lt;/p&gt;
+&lt;p&gt;Obrigado a todos que vieram aqui e leram alguma coisa! :smile:&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Personagens coadjuvantes e suas raças]]></title><description><![CDATA[Chegou a hora de apresentar mais personagens :tada:. Alvaro, um humano que deve ajudar a Lumi logo no início de sua grande cruzada. Saulo e…]]></description><link>https://bsides.github.io/lumirpg/2017-02-18-personagens-coadjuvantes-e-racas/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2017-02-18-personagens-coadjuvantes-e-racas/</guid><pubDate>Sat, 18 Feb 2017 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Chegou a hora de apresentar mais personagens :tada:. Alvaro, um humano que deve ajudar a Lumi logo no início de sua grande cruzada. Saulo e Silvana, dois Flokis do vilarejo próximo, que brincavam com Lumi na sua infância. Vitoria, uma elfa guerreira mística muito animada. E vários outros: Flávio, Carlos, Yashiro, Kasumi, Polum, Bauro, Teco, Mobi e Mara. Está preparado?&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;Alvaro&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/alvaro-faces-c8311a2fb61a74f084a8e344da487723-95632.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 576px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAC70lEQVQozyXR60tTcRzH8QNR9KC/IbIIoccVVOSmEJSbty667ZxNcYW5y9mZu3nm5nQ70/Rs6vLGzPucJm56FJ1Nl5eUfBKBSCSZWmRqSk8Vap5vv2O/hy/e3ye/D4ahp5DnlXvspTDYUb3rtKhTBCOIR3amAlmwaodxaK6cGv7Q7nZoYajTvVNfpb8sGI6MceoE262yqi9i2NVr522qrNV+mwq4YDX4vZRLCK1K6Vq3UQZjHR7wuUm3YKj71GdVos4NrMfACGYhJOt9FuL0lvVQXiwyFLzONZZvfJ0bhgTXC3qNTDc5PZrK+S0bm3NDEB/tBlIrM8XjXGqs1flla34Y4tFu0CNbSEykTLY6v39bjkI80gUGEqexAOtUJ7gQzHJhGAjWgFoiMvs9VuLteBgS44MQaveCOjuDbvRYFEuzo7AQj0I4WMsXS8U21mXCV+Y4WJ6fQF0NPJWKPVjJM/x3sLFqz2IoSgb0xHG9VLyrKSEOkO0jO2kilccsMq1gTdX7ZRr8JEAqj/xZ6T9Rd9jmq9wz61TJJj1x1JQl3sUeZ6ddIBS59YxDB6GA/ZApld26a1OfVSlyWaZCi4z+VaOV3xE9zzmrwvN8HrsGBgL0QT1J3M40y84pFbk+7//ukDUQN4V/PWMmJB96zThwHW5oeGGiBaRk9z92UmiULi8ayugQzCh/sNppImCs0ws+r7FSMHS79sqihCgaxVdT5sLCobYbHGvaXp/uR6P0AVmab4pEwqmxNufW9rsIGqUHKI2MjsWiqdPtrs3NxRGYHesFQ2k+vbgUv8Q12H58ng7BDDJKK3dhvlq6eH7qdXJuahj62xlekZVO1rlMBcuJUX5lcRL6WtxJIu8e1cDYnryfn/i7OHM6yh9FTgYZqHMWJLh+/s1ID4Q7apN4doYdI7WF0MY6wEap+WatAlhJGm/QFUFLnR2sZBHfTBLAZqadGHWo81WCRVfIv9Th4JeIkhTqWtEtbVTzAY0cAlIR/w/IE7GY5Cq6QwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;alvaro-faces&quot;
+        title=&quot;&quot;
+        src=&quot;/static/alvaro-faces-c8311a2fb61a74f084a8e344da487723-95632.png&quot;
+        srcset=&quot;/static/alvaro-faces-c8311a2fb61a74f084a8e344da487723-9d04d.png 148w,
+/static/alvaro-faces-c8311a2fb61a74f084a8e344da487723-f1dcb.png 295w,
+/static/alvaro-faces-c8311a2fb61a74f084a8e344da487723-95632.png 576w&quot;
+        sizes=&quot;(max-width: 576px) 100vw, 576px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Um humano guerreiro com cara de poucos amigos. É introduzido na história bem no comecinho na Floresta do Labirinto. Tem barba e cabelos brancos, olhos pretos e uma armadura completa com capa e tudo. Tem um comportamento justo e ríspido, que pode ser confundido por brutalidade e mau humor. Apesar de estar próximo dos 50 anos, tem muita força e poder defensivo. Sua cidade natal é Nori, a principal (e única) cidade humana. Foi representante do seu povo em diversos conflitos e parece dever favores aos Noctilla.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;%7B%25%20post_url%202017-02-16-o-que-aprendi-e-bonus%20%25%7D&quot;&gt;Como mencionei em um post&lt;/a&gt;, ele terá um poder de transformar-se em uma figura passada, mais jovem e mais poderoso ainda - e nessa forma, ele irá profanar um montão de palavrões :boom: auto-censurados. Gostaria de sujestões aqui… eu pensei em alguns, mas não estão tão bons. Quanto mais tempo passar o jogo, mais dessa antiga forma ele irá lembrar e, talvez, misture suas ações.&lt;/p&gt;
+&lt;h3&gt;Curiosidade&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/zero-faces-d966513aaf4ac685c2b49fb59fba53a6-95632.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 576px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC9UlEQVQoz03RbTDTARwH8P+brq6oFxI9XNakERJup4tKHlJRnbuQVV6Qkqfh1miYQ9Qh3ZQLlbL9zZbNv1QqZ5utVbpquzqPw2xThrlIZ7Pp7td/O6rfy899v29+X2SI7uowRid+XrrrD4br3n3t/qudhujO9uorLkpz7V6r9XYErNnyKX+rvebqTtz8YLrca/B5oN2msVLCeg2doLDc8bHmBoTkVc7IEI2U1ludAD3FpyyjWbsBi95O/lZCPjtUlwlK1uVFXQ5usSSf0SIyZZh1Dt4zIxe1OZ4gOOvjPVzgmzBQlwE9lclmVZYnvIgnHkG4sdsiRzoa4CunGlooxJ8PAhGnZ0l7IjRiHvRxa4F/3m3+oR/ihF3wDR1urwVF003gUXb8Qg8jjuwYQuioqAU+orXAjds+2xxt54pYz8CjiRaFhdBND5UjyzfOye6a5+aCjBHxZsW+s6liIz8Pt6PSFZt4lCox8vJAmhcus0F705MNk1gh29hZDnoRZ2ZSxr9Ywepaa3hajJpel4FezDFMSLiX0KbudVNYEcdoNRF7Ri/lX2yq4dpN4mayddkG/RthKqKuT/LRlQSoTQ3BMFsTrB2oStuna87ZrSsP0hjvheJ2SDNYkbJ/hEO12UJ9CPxgHRxX3c4K0HLxXFmQxtQQYs3pVCxqEDJ4xSNZWZMC7ysSLapMd0CD7bw1DFKM4kYcvCs8bh6jkoAT5kAaLfA7rbpFgQ/MY2Y11R0aI13chmmuZ/qqz1lzlv50EgiiNh5AeBTXE1o5Bl/496AlnvhTcBLZgiV6HR95Xg/Kxkp4nECa5x5ANj9L3ntE/6oB+lEWPgrxV2sU4tQc5xI+3nkfFOxb+CiEWUG84y7bH6fRdNFvrADEtEOylWfrUapoqS0funPDpP9GyZBYhAyrSf4ami1ZxJggoQV320DbxfeexErb5l5WgUHGN03LWxlqsXDX1JNr2NyLimUTXNWKWt3/tym5gIF3PfAuNtdRabWF6bdtzD+ZT7jhY1surAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;zero-faces&quot;
+        title=&quot;&quot;
+        src=&quot;/static/zero-faces-d966513aaf4ac685c2b49fb59fba53a6-95632.png&quot;
+        srcset=&quot;/static/zero-faces-d966513aaf4ac685c2b49fb59fba53a6-9d04d.png 148w,
+/static/zero-faces-d966513aaf4ac685c2b49fb59fba53a6-f1dcb.png 295w,
+/static/zero-faces-d966513aaf4ac685c2b49fb59fba53a6-95632.png 576w&quot;
+        sizes=&quot;(max-width: 576px) 100vw, 576px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Ele já teve o nome de Zero e Antonio antes de ser Alvaro, porém ele tinha uma aparência bastante diferente. Era ruivo de olhos verdes, com uma faixa na cabeça e uma tatuagem vermelha no rosto que representava sua tribo. O comportamento era igual, mas era muito mais jovem e mais bárbaro que guerreiro. O motivo da mudança é que queria alguém com uma figura mais paterna próximo da Lumi e, como grande parte do jogo também é sobre diversidade, uma pessoa mais velha faz toda a diferença. É possível que eu ainda use seus sprites antigos para outro personagem ou que Zero ressurja como um vilão. Veremos em cenas do próximo &lt;del&gt;episódio&lt;/del&gt; post.&lt;/p&gt;
+&lt;h2&gt;Raça: Flokis&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/flokis-village-d7b15aa111a0602c23b777c146f04aa9-cc542.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.692307692307686%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAADXUlEQVQozy3TaUzTBxjH8b7eq2VLtjfLkk1ggCC0o4BgETFzojAoR+O4pAcW0hMqULpKi7RAsWTSw5aWYkGDgYoTD7ZApmEgKpkuY44IW7Ij0WyGbcmy7O13f+JePG8/+T2XqO+kBEdDNpZIDqp4KupxCa6VItTeWvKUZnJUZsosLVx253HDns2cXcx8r4R5ZwHG5nfpGJLxy90zxBZiVI7PIrJXp2P4MI1WtZiem4fonspFe66CnKZ2ctQmATSRrzHhapPia36P4Kl0hpWpdFSmUC+U0S9h6WoDgdkQVRMJRIbBTGosydS5BPhyMubJfWjGapDUtZPfYiBXQIu0Bjr1YjoHc3C6ZWjUUvSKAmzaFPRWMQHnB/hmg1RfvIqocSaNqkt7aEq8QYXrVRoCGWii1WTVn0aiNpPRaCKj3ozKeQL7vSI+WZTRJwDB01VEnVl0fppPwH2MyPw48piQUDmVgWX6AO0Xxah7ZXgScozhSmR1GsoMKrQDrbR52lBbWvHMKOhfOoDNmk+kpwafTYrVk0vAVcrY9ShVu+AX6yaePwny20aUF5thdn4YY/pCAzaNmKC7lD+2/Tx9GGLry1FePAmztmbF7ysn6K/APJyKrjdTaPk4Y/P/gzubEf7ejrO2riewUElio5muUTmHqhU02ir56pGBKZeCaxENf/04zu/fh/lza4KfNs+jufQWtY69hPrLCV+PvFzKt9/YOT9fgimehdz/CvobaajCNeyt7eGk52MWlssJaZM4IXuNr1edPHvqY/vOKM8eBZlbbsM4KeXC2WMvE+6Cn60oKXO8SfdMMbpoKk0uGUdNOpRDCs4ljuAfLmWyOxtrbTK24GFuL+p4/jjIzmaUxxt2mmKvM+g4IoAxKnZbXr7jpK/nfQYtqXR691Os05Er3J7z8xLcS8VodGm0FL2NsuQdOvtK6DAVsrpm5x9hTCvrVhojaXg95dxfGsF8ZRrR4moXvpF0rvTuoXusEKlaT6HWiOPWQSKhjxiakGMdzcTiE9PhldLoSuHaQy3/bk3x4Lsz2EIFeLqO8uu9fgbm4ojuPjDRakzCYdmHqT+X/a06pMLLqUYUdMWThER5jHpL8Z49TIs2g/Z+KRNuObdjp5gcqUVzPAWr+iA/3x+gLxHnP7DmRJUp9j03AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;flokis-village&quot;
+        title=&quot;&quot;
+        src=&quot;/static/flokis-village-d7b15aa111a0602c23b777c146f04aa9-fb8a0.png&quot;
+        srcset=&quot;/static/flokis-village-d7b15aa111a0602c23b777c146f04aa9-1a291.png 148w,
+/static/flokis-village-d7b15aa111a0602c23b777c146f04aa9-2bc4a.png 295w,
+/static/flokis-village-d7b15aa111a0602c23b777c146f04aa9-fb8a0.png 590w,
+/static/flokis-village-d7b15aa111a0602c23b777c146f04aa9-526de.png 885w,
+/static/flokis-village-d7b15aa111a0602c23b777c146f04aa9-fa2eb.png 1180w,
+/static/flokis-village-d7b15aa111a0602c23b777c146f04aa9-cc542.png 1248w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Antes de falar da Silvana e do Saulo, resolvi resumir um pouco sobre a raça deles, já que serve para os dois.&lt;/p&gt;
+&lt;p&gt;São humanóides rosados com rabo de raposa. Seus cabelos seguem o padrão rosado, só mudam na intensidade. Dizem que sua coloração vem de sua alimentação, como os flamingos. Geralmente vivem em tribos próximos a lagos e cachoeiras. Praticamente todas as tribos compõem uma canção tradicional dela, já que são muito ligados em música :musical_note:.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/flokis-faces-5de800dcfb08e56d4e827efaca1285a1-95632.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 576px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADJUlEQVQozzWRa0iTcRjF/xQEQVCJX4yCKOiDVBQoiYqo4IrMRJLK6xQvRenMy9SZmi6dK3N5aWaWl6FTSct52ZxupkvXdE6n8zJ90U3bmKmbzpW9zld7cl3Ot/P7cDjneZCOXmH3UzKihNkl+N4gkJAQOqCtaz22VsuTw8AErLeJxa8ROoT2pUjM40LvCKxKRxrQP8kouU273TJY+c+wZ5X+26MzYJKPE0RZEyxF5bjoGzqC11s/w3x9p3X7ZSOYqaVu7OLCU5MfOwi9QgmmiQlcQ0m2F7HYp3QiidWixuCnehYXhEc6IH42w3VGINpT9/YTK6w3sJJQdL8uLN5jVTEHmFS5M0Vjgzml5OZZkqvDx2K2VdrYDLzYxC+2MuVhsSewDuGWaWB/DDV3aB8dRDpGhdP3tl4w94h3DVQmqEKofaq43OsW3jCsyjaIMcorkAc/kgIyIl3e6/bxzDJI9rzb/X/yXAarazj1BVDcA/l/wOCD59GzZQx8Y0AI2u4P62+DaNMYhSFUpL+06HsX9ua5Ehi8l23M8PB1pJDjS1PDk8DL57bZy/NGYkKgn102hdaUEpsGV68FAcnLLwsNxBd6rLV0LoJMCZZuyReHaIEDVs1zs3xWYMToNGxyBb9MzFp910MaSUxO1GqSmcAnRai8j1w4WZKWlvQmjwk1hSxrQsAt8Hdxy0FaZtXNzZ4xMAhH9vDiZsDJ6Zd03LYSQjYPhj7lNlR1wGwsvQkLT3i0UdYIC80iYtgjBnjonGPo7ZAwTkEFPKfS8cxbZKC5X6Wj6hc1p6c+KXH9lB6wd2JjDTpjj7E45aZBW+AMfH1abZDkVx3nX/SNN3B6YHlGa+10CgXuMa9ghmbxqGn6G761goPmbQ9Mhj6+8+eOGzyRGAan4X1K0Seb38xguiy94+3g9W3ACQyQ21glOnxZklJKaLvmd+vPk6HkkHOzjatFk+UWuRmkdP7fRyX5tjvTQiKHnkT6QID3XaCHNjL7OaoIdlzUVmWMH+T700AqXKwtuBIVle6cBhrxwh4zpAUol1hrqlaF21eZlm3sWwbLuPmHUb2a9Ru8h+MewfIBawAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;flokis-faces&quot;
+        title=&quot;&quot;
+        src=&quot;/static/flokis-faces-5de800dcfb08e56d4e827efaca1285a1-95632.png&quot;
+        srcset=&quot;/static/flokis-faces-5de800dcfb08e56d4e827efaca1285a1-9d04d.png 148w,
+/static/flokis-faces-5de800dcfb08e56d4e827efaca1285a1-f1dcb.png 295w,
+/static/flokis-faces-5de800dcfb08e56d4e827efaca1285a1-95632.png 576w&quot;
+        sizes=&quot;(max-width: 576px) 100vw, 576px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;É a única raça que possui representatividade em Halidom que não tem uma cidade principal. Os humores, tradições, alianças e até parte da sua coloração variam conforme a região e é o motivo principal de viverem em pequenas tribos. Costumam dormir por pelo menos 10 horas por dia. A grande maioria das tribos formam alianças ou pactos pacíficos com os elfos locais - alguns por medo e sobrevivencia, outros por compartilharem a filosofia de defesa da natureza.&lt;/p&gt;
+&lt;h2&gt;Silvana&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/silvana-faces-18fd1ba6a1bd91efe9c31581e98bdc07-95632.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 576px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADGUlEQVQozy3RfTDTcRwH8M+V66iudCens+q6CqeHC+GkbfR03eUh+THCRQ8SZrMV5qGzJ7Op+W1W/umvHtyVhI70oElM28imPG84F1JKRU9zdZ9+o++fr3t/7nOf7xvakjiuoxlFxh95ZWiOy2oE6hku5LhYMwqMczmlaGaxF83EKXShcp3fcxVo+p/r4RStH7Hb0mwDRQ5QE3S8yJDAwxd8iU0bkoyXgbaznkFwzafy0VhI2l6GpqAMtnjXMYiszkQ+anNLbO0hKciH9Z51TILblcDHFp7Y9oyehArwpkMxzTehu0GL1p4+rIpiDzsCOGn2hEVbHhlwbmwW7xLZFmqzo9wzNLq79in2mXuwKizd4kHlijf4xHY3tuKQqRdvHjs/cAZWuoJ8hVdoj7pufqbrKyozlWL7Kcp1/iE64Y2fo09GUMkhJXYrX+N7UF9y68e7FxNIZqtFdiOdfY90Xq2en+z4iCRXXWw3yAfnwxpG4kuhUI0BkTFmWU3TJgE4Ma/Tk9rE0usYEEG8UTa1uctgHUMVFKeTyirRPzzaXPnsFU0Ea0PJ4JPtEuk19IsgusoKlTvg8YnUDf3nBYOTAjk+Z2UaxKlCd/3ZS669qXlDE3mliyZLl9J0KTy3N+dyhsYvSrCZlWlUZivcX52+6NafJhiaWprVq9KEW+HBvqjCDhYH23jSBS3zFArA0aOWHs0xxvNQl6tYaKWKEsPqbfXMGPbblAI0iypt7cxkvACwpZ5JcAxxXKpQ6UIzPRFLwD0QRBv3JvQ+0eF4nwVvR7KHdwOsIncdJYYb9Thj/YBVJ7hWGsDKK16HiIlmM/76+BvvhGVYQ6ichObP6n7YgmO9FrwTkTl4FlzcQO6wnWFS187OGD+jmqMssv+r3MF7v0lVM/fJOIvl7LLLdlMs82S+Ju9/e6+bRhV3KUc6+x3Ql9768qFjGjX8ioLFUoSwOUpDP9mfU6z6ExQRO3WvoXWvCDZHXguO778kVCFl03VP9T7lDp7hZGDsYK6ogrKYqcZmg1/Zco/jZBBrIE9U8TcgnBiv1lQd+Qc9+49o2P8SXwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;silvana-faces&quot;
+        title=&quot;&quot;
+        src=&quot;/static/silvana-faces-18fd1ba6a1bd91efe9c31581e98bdc07-95632.png&quot;
+        srcset=&quot;/static/silvana-faces-18fd1ba6a1bd91efe9c31581e98bdc07-9d04d.png 148w,
+/static/silvana-faces-18fd1ba6a1bd91efe9c31581e98bdc07-f1dcb.png 295w,
+/static/silvana-faces-18fd1ba6a1bd91efe9c31581e98bdc07-95632.png 576w&quot;
+        sizes=&quot;(max-width: 576px) 100vw, 576px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;De um temperamento mandão, Silvana gosta das coisas do jeito dela. Apesar disso, é doce e divertida com quem gosta. Ela sente uma grande atração pela Lumi, o que faz seu lado mais doce ser mais notório em diálogos com ela. É possível que surja um romance :revolving_hearts:. Prefere calças a saias e vestidos, é magrela e de estatura mediana. Seus cabelos são mais escuros que o habitual Flokis e seus olhos são verdes. Ela luta com chicote (YAS KWEEN!) e é super ágil! Talvez tenha poderes ladinos (vulgo roubo).&lt;/p&gt;
+&lt;h2&gt;Saulo&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/saulo-faces-551c1f0b3ef7817932fdf6e770c13d44-95632.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 576px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADHElEQVQozx3Ra0xScRjH8f962exdbb0qa21d1upVY2Ft3dfm2npVWzXTbFqtlbO8EGQFba2yUELMC0hZKffLQa5eQDjnKAfwHMRLqG14wVonqObAcPJ06u13n+fN80Oxjp4DPz14AmJzkNY6k2M3HxXSnZ92pd2BJDBxSOtcy6EbDTsm1bo9aQ++ANEZSOtdyXClaOfEB+Nuzi3C+Ow/txiperoPJbR9mj9UDJY9/gw4SAhXPLybMDgVMBYH1hvMgmsEqOuiqnmTq209PAVLTm8WHDhQ5cL7ixaPPM+1bwNEBrBhYKqfiRFe96JqeSAE0x48N1fTDMTlmguURFGy4ueOA7HczL3XQJUJLxANTWWsl4YJu49zTYBfEVwkhK9KWR8DXwaDuTjnyDJhBcJR4cZEjy+UMtNgraiJinnFRaNb+JvjH/tHl3tJsFbWMk95544MFBzcMq/DiV8mGrDKelrMO32U3lG8eba7f5TVh7hWG3nJP3cWvVXItlqan7+PGo1g75SmbW9bHsvrBNut8kZ1zGQCu1KawlrlT1oEokKspbErajCAQ9X8w6qQSRQPxdsweeO7/00pZa2tb14gRm8rZr347/XJz/DdOpQKd30soi2O4+wQnl2LTcIPzJcOdqqLGLPjNOdW1sangMW8qWC7+kjU5j71r+Wn4tzt4Hf6fe8ZtKCzd2dxBr66Ahmw+SF8tf5mQu+QrlPcsz1EFmzDQHFtyeyR5UPTkOofWc1bfRAqqb+zZPG8ygUnIOkazuTNQ8DcljxAAcHLatYfhXmcXpvlRglerb9ESlrKMsQ0JMmJ3Aw3AHVNeCkoUVzPkHH4isdyc3UyIEoeXCYapOWsj4Z4P5GLc26kXHQLnUdow5fuwSCri4C59A4t2HvskAGhgoQmQP4yMmAqvTsm2neSp0Ro07yWCPw00pyrigj28nlTaEPBeKuFXOjyAVZeHRLvP3EChUORQ7Z2qZ4yaMDZ077qfqdq82NOvl31Rkvpe8Gl6Vh1qZVt/j4336GSaShdD7i1qoxD2dZBun2H+zqbdP9db8eKU63s/guKVyELortQ+AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;saulo-faces&quot;
+        title=&quot;&quot;
+        src=&quot;/static/saulo-faces-551c1f0b3ef7817932fdf6e770c13d44-95632.png&quot;
+        srcset=&quot;/static/saulo-faces-551c1f0b3ef7817932fdf6e770c13d44-9d04d.png 148w,
+/static/saulo-faces-551c1f0b3ef7817932fdf6e770c13d44-f1dcb.png 295w,
+/static/saulo-faces-551c1f0b3ef7817932fdf6e770c13d44-95632.png 576w&quot;
+        sizes=&quot;(max-width: 576px) 100vw, 576px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Saulo é um curandeiro zen. É cauteloso e tranquilo, ama a natureza :herb: mais que o normal, beirando o típico hippie. Protege sua irmã a todo custo. Usa eufemismos para suavizar cenas tóxicas e tenta evitar conflitos. Tem um cabelo desleixado e barba por fazer. Assim como sua irmã, seus olhos são verdes e é uns 10cm mais baixo e mais gordinho. Seus poderes são principalmente de cura e melhorias (buffs). Para o combate, ele prefere armas não cortantes, como maças, porretes e cetros e, mais tarde, apenas luvas. Em algum momento do jogo, Saulo poderá se transformar em uma raposa, trocando seus poderes curandeiros em poderes de combate corpo a corpo, uma máquina de matar!&lt;/p&gt;
+&lt;h2&gt;Raça: Elfos&lt;/h2&gt;
+&lt;p&gt;Do mesmo jeito que fiz com os Flokis: primeiro a raça, depois o personagem, nesse caso, Vitoria.&lt;/p&gt;
+&lt;p&gt;Humanóides, com características que mudam dependendo do lugar onde vivem. Elfos vivem em praticamente qualquer lugar com natureza abundante e suas características são misturadas ao ambiente.&lt;/p&gt;
+&lt;p&gt;Um Elfo da floresta geralmente é esverdeado, com tons de árvores, folhas e até parte insetos; da mesma forma, elfos das montanhas contém traços da montanha em sua pele, são mais fortes e rijos e acostumados com o ar rarefeito. Elfos das cavernas tem tons de pele e cabelos escuros, com visão aperfeiçoada para a escuridão, com poderes mágicos aguçados que dizem vir de cristais arcaicos, dos quais ainda preservam. Menos conhecidos são os Elfos polares, arquipélagos e dos desertos.&lt;/p&gt;
+&lt;p&gt;São extremamente ligados à natureza e creem que nasceram dela de forma espontânea para ajudá-la e fortalecê-la. Desprezam os que a consomem de forma imprópria e inclusive combatem quem a fizer. São criaturas muito habilidosas em combate e magia - se atacados em seu lar, são ainda mais letais.&lt;/p&gt;
+&lt;h2&gt;Vitoria&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/vitoria-faces-dc339b9f19a646c671d82645eb354363-95632.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 576px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAB54AAAeeAHLqwMfAAADJ0lEQVQozzWRaUzScRjHf235oq3mWunKdK1jy7SttWptdrDsXNqlpQSpBCr800KnbUSzXDI8yAs07QAJkxSF8M8hh/y5RC0TppBboZmytVa9yA70jTyBW9+Xn32e7dn3i8qwwUNNfLe/TeCH2gqvGYVzt4Q42MhzT7cJpqHuvm+FcUutBxqq3DPtj1a8wf9eA889E7mtqfCaEOKvRvwKj8qimoYRrXWJiwVgX5zjWmO15ymh+gyjevsilxWA/QkOcpg9NylmYQi3hb15OJBgpwh4nmc29RyM6GxLd1mfgZQ8zETXM4aEtp4JmPNYQ4w0fTB2lTaFctnFcyomwD9KhFiXdMG1yHKYQXHxCLkX/G8soYLzhmAswlNys1xVtleT8OmteZmRZvizM1p3Jvz42DpN24B+WqeGouPNsklzb9qGNard/UIc/6BWQcnp5q5xk/LMrs3dSepWwworPdvSOazuPrc3WZ8of9iNv+95BbdOtogHuxRUlIpISV35ZQwNpR0kufemjJhsBlt9gSTHymk4+SlIcjhTpmK5H4s6d1zB4tL6yW0gjrAi+ScGSiP1YNw8HfUJiPPuTRoLX3xDN9MlVFGl7WdHjQ+aKofctYi2kX1JkiWsJBaktVNh5nTzEbaxNEOc1XzfuiCujnjOcQFiR7xs4QPrQkeNFxofON81beXFozqeT27smwHLayJcbAASN41ktDT6RMbeOSDU9kUOMwBJcaMZwnpvq1k5B+Nm1xKHOQ97triuNAl8IrNyHqz99iVO4SykJI/REeWC/bEjPMBXny1ET9f/jY/SHiFfdFQ7eydhdswaYl3WBzcg01FatpPv6PbCFw8RKrhoDsYhZcr1zIj3HgJuYpmebvi9a/3KKBDV90iFf9T0A0YSiaecfacRMmw3iI1Kv1YDt0+IpB67KnVzjHYH3m5UfdTgwD7ZKhkx9J6KTxjYpm4NMy0O2DFRu0XRl42urMs5JaUVl2muCkCWz/muy5f+vh2bSxbTsRI8sx6kN8p/6Fmdv4piyNSXjDK2OrMWpPQ7PwaYnX+Z0VSyjFHK1lytgxcFnK+GfBn8AzWszbJLWM7aAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;vitoria-faces&quot;
+        title=&quot;&quot;
+        src=&quot;/static/vitoria-faces-dc339b9f19a646c671d82645eb354363-95632.png&quot;
+        srcset=&quot;/static/vitoria-faces-dc339b9f19a646c671d82645eb354363-9d04d.png 148w,
+/static/vitoria-faces-dc339b9f19a646c671d82645eb354363-f1dcb.png 295w,
+/static/vitoria-faces-dc339b9f19a646c671d82645eb354363-95632.png 576w&quot;
+        sizes=&quot;(max-width: 576px) 100vw, 576px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Diferente dos Elfos comuns &lt;small&gt;(por que expliquei os elfos antes então?)&lt;/small&gt; :facepunch:, Vitoria não tem muitos traços de seu povo. Isso porque ela nasceu na cidade de Halidom, no meio da Guerra da Invasão. Por não ter a forte influencia da natureza, ela não tem os traços comuns dos elfos, parecendo muito uma humana comum - o que traz muita confusão quando vista por um. O que a faz mais diferente ainda são seus cabelos azuis. Outros elfos não a entendem e outras raças a consideram uma espécie de anomalia, exceto em Halidom, que é um lugar onde diversidade é o comum. Ela é faladeira e muito animada, preferindo agir ao invés de falar. Aprendeu sobre combate e magia sozinha e acabou sendo tão boa que foi chamada para a guarda de Halidom, onde aprendeu mais sobre como ser uma guerreira. Usa apenas uma espada como arma principal na mão esquerda e na direita usa magias ilusórias para confundir os inimigos. Mais pra frente na história ela revela um lado negro desconcertante.&lt;/p&gt;
+&lt;h2&gt;Outros personagens&lt;/h2&gt;
+&lt;p&gt;Existem outros personagens mais secundários na história que ainda não tenho muito sobre, são apenas ideias por enquanto. Na ordem da imagem, são eles:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/other-faces-b0554ecbea8b00e6bf4eb34bc3b9fac3-95632.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 576px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADNUlEQVQozwEqA9X8AAAAAADMcYOn/rvJ/+rHzKgAAAAASEZKG2BZT7dwZVj/Z15T/0xHQE1LQzieTkc79Dw4Mv8tKSXzGw4OGVBKL6KAdWf/u6uh/K+dlf+DZ0O6AKV+gibVsbb848vO/+7S0/j/nZ4LLTc8Z5WEdP+vj3b6l35p/19USWI+OjLaXU9A/15QP/o3Miz/KCkkRhAhJFNEOSj/Y1VA/GBZUP9DOjG6AGdUVyWvkZb5wKGm/7Nsd8sAAAAAf2hZMtavj/v80aj/0qyM3mJMOg8qKi3BfmxW/8iodPpgTjv/QjIskVVDPFN9aVP9yq2O/4VtUfxUTgxvAAAAAADigpS20n2T/3I/V7oAAAAAAAAdB8qliaz/06b/27WRkQAAAAAuMDZ5XlVNzcuncv+eiHj/bD9A/5B3a/aegmn/+9Gs/f2rNv/dhhTcAD4oHhFvZHKgY1lr/j1BU/ZYVWB/TlVgQnBgW+Gwk3//loJ0egAAAAAAAAAAW0o3bHpmTeaZdXPhcEVC5WZXSuV4Vkr7qX9h/+yEFuSteUT0AFJRZUBATl7EN0RS8k5ZZ+uhqKy/PwAAAZudnJ7Iy8v/pq+xx4uTnzyvp5dWlpaNdaSAWruibkpRwaOhRKRcXLq1hljvqIRd/8KRZcTWyJ6xAEVHRJgmOEnmHkdl/0pgc/9YaHR8squmONbW1v+ot7r8nKy8/2BziceFnqBOrYt3/f+lXP/MkWXmtLGyor6FafvCnGX/qZJn/NKrd/++nm7MAEpMU7wgSGj/GVWA+FdyjP9candoub2+muHi4f/R09P5n6u1/zpefHSlmpa5on51/9eehPeugHP/hoaJxbODT87kxYn/48mU/efBjf3AjWPNADlBXP9ZboP9dZGl/pSWqf92eorWw7/C58HCxP+apa7/k5yk8IKKjTilmJDfmJ+f/5Olq/2To6b/lJKT972bgtrcmmn25K1+/+m6j93fv5q/ABwoRLN8fIL/j5Kj/EVPb/9NUmr739XT+fHo5f+mqa3+iZqk/7O3t86opp32w7yw/8K8rf6hmpT/0ci29Lq0tsWnjG33p4Fh/6GMbv65moD/khe71ud3wHoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;other-faces&quot;
+        title=&quot;&quot;
+        src=&quot;/static/other-faces-b0554ecbea8b00e6bf4eb34bc3b9fac3-95632.png&quot;
+        srcset=&quot;/static/other-faces-b0554ecbea8b00e6bf4eb34bc3b9fac3-9d04d.png 148w,
+/static/other-faces-b0554ecbea8b00e6bf4eb34bc3b9fac3-f1dcb.png 295w,
+/static/other-faces-b0554ecbea8b00e6bf4eb34bc3b9fac3-95632.png 576w&quot;
+        sizes=&quot;(max-width: 576px) 100vw, 576px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Flávio: chefe da guarda Flokis do vilarejo de Saulo e Silvana, um tanto estilosão, parece q os membros do Village People explodiram nele;&lt;/li&gt;
+&lt;li&gt;Carlos: um garoto meio chato, meio sexualizado demais pra sua idade e que só cria desconforto à Lumi, mas que acaba ajudando muito a todos;&lt;/li&gt;
+&lt;li&gt;Yashiro &amp;#x26; Kasumi: são humanos orientais, um casal que vive distante dos humanos numa ilha no meio do oceano. Kasumi é viciada numa fruta que parece uma pêra e Yashiro é o ser mais analítico do mundo;&lt;/li&gt;
+&lt;li&gt;Bauro: forma humanóide de raposa (er… difícil descrever) do Saulo;&lt;/li&gt;
+&lt;li&gt;Teco: um dos vários robôs sentinelas, aquele que conseguiu criar a própria consciência;&lt;/li&gt;
+&lt;li&gt;Mobi: demônio engenheiro de asas, construiu os sentinelas e essa máquina que chama de Mobi;&lt;/li&gt;
+&lt;li&gt;Mara: fada do povo miúdo (pixie) que participa contra sua vontade de experimentos de laboratório, fazendo-a ficar maior e desproporcional às suas asas.&lt;/li&gt;
+&lt;li&gt;Polum: (não está na imagem) aquele que acreditava que seria o príncipe Noctilla, irá atrás de Lumi por algum tempo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Devaneios&lt;/h3&gt;
+&lt;p&gt;Eu já gosto deles todos. Tenho vontade de enfiar mais 200 pessoas no meio disso, por isso tenho que me controlar. Vai ser divertido colocar eles todos na história, com certeza :stuck&lt;em&gt;out&lt;/em&gt;tongue&lt;em&gt;closed&lt;/em&gt;eyes:!&lt;/p&gt;
+&lt;p&gt;Estou pensando em fazer um post sobre os mapas de alguns lugares que já existem e o processo que foi montá-los. Não posso prometer data, mas será em breve. Até lá! :wave:&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Lumi - Personagem & Raça]]></title><description><![CDATA[Como prometido, vou falar um pouco sobre os personagens do jogo e também das raças que os acompanham. Como é muita informação, vou começar…]]></description><link>https://bsides.github.io/lumirpg/2017-02-17-lumi-personagem-raca/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2017-02-17-lumi-personagem-raca/</guid><pubDate>Fri, 17 Feb 2017 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Como prometido, vou falar um pouco sobre os personagens do jogo e também das raças que os acompanham. Como é muita informação, vou começar com a personagem principal. Os outros vão vindo conforme consigo escrever. É possível também que eu atualize esse post no futuro ou coloque como artigo ao invés de post, já que é uma informação em constante mudança. Vamos lá!&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;Lumi&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/lumi-faces-04f93e95955a4e94d3e7df45bc17e4bc-d9514.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADt0lEQVQ4y03T2VPTVxTA8d8/05c+tU99otaxdVrrtBb7wJRah0oEphYYBixLURCqKKIoQYqi7PsWQgiZkBQkkQBCCAlEyB6ys4RgilVBvv3BdJw+nDn3fu6Zu8yZK0SDUUL+CLs7rzh4C3v/7LP/+t37fGjvXh+8t7ev9o5i7zD+N99/vU98M45g926x6gszv+xg2ePHFd7EEdzGF43j8K8zv2ITPYBNHAdfviEqHrAhRnhXjL8hugdbb2BTzMHYAcKc0Yl8WE9L9wh9vU8ZUxsxLblRjZjo7p2gv83AM50Ns9WNUrGIWrOMTr2GdWULuzuKSmVlTGNFr/Fjs20jmBdsNHfp6J1YpLZqiCun2hgbmqNTPkOXdgFp2SDlif1Mihs19uppV81wK7udiqQBJieWaOiepFXxjOuSFiqS5QjGRQelLUoy7su42TnCxU9/R6W0UNAkJ/uRitL6HjJPXEepXiXv4QCFreMU3W7kt6+qUU7ayakb5Gr3FMUlUnJO1iFYlj38cqORY8k5JJe1Mjtlwmpz82OhlOPn80m50Yln1Y3F4eds7l0+Ty8nq3qAda8fncnG11l3+CKzivLHKgLONYQXVidmu4szaZc5k3mVUChAIOhHb1wiISmdi6V3iW1H2d7ZQTExzcffXaC4ppF4PMZWLCY+V8OH36YgbR9kNy522WpxMtyl5VL+PVIl1TTcV+B1eeloVHE+5w4pF6Q0N6gJ+kI8rJVxLvsOktQ6hmUG1hw+qm53cS7rLhkX61ENzyJ4XBGa+gzIpmw8rhul8LNmlL0mWsVFucHOo0o5BSda0IxaaJLNoDCscq+gh2vf9KDRWngimky3RNWldopP9yCsOsKUNKlIvdVHaauczNPl/KW2k13TgaSyg8IHneSfrUKltZFe3UZGrZzc208o++FPRvV2JOINc5smKf6jjqLvHyF4vRtcrunlWOoVkkubcTq8hDe3+PlaAwmiSSo62AhFeOEOkFRUS4KkhDzpELuxKNPLLhKzKzmeVkZlm5btyDpC0LcudtXFqfQiTqbk4bR7iO/EMBitfJL0Kz/l3cDn9vFSNOX4DB8lppFTJiUSCIu2Q4dMzQdfnuPmgw42Q5sINs/h97LTpjZwv09N//g0drF42rLCE6WO2kEtCv0cruA6T40WGkZ0SPvVaJ6bcQYiqGdM1MsnqO1TMjFrRpjXe5if9bG8EGJlMYJ5PsjctBejaFZTmBeiLc4Fjmxh1n9kh3Wm5/7/zMeczopWMcWzMTP/AoJAbu5XB0AGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;lumi-faces&quot;
+        title=&quot;&quot;
+        src=&quot;/static/lumi-faces-04f93e95955a4e94d3e7df45bc17e4bc-fb8a0.png&quot;
+        srcset=&quot;/static/lumi-faces-04f93e95955a4e94d3e7df45bc17e4bc-1a291.png 148w,
+/static/lumi-faces-04f93e95955a4e94d3e7df45bc17e4bc-2bc4a.png 295w,
+/static/lumi-faces-04f93e95955a4e94d3e7df45bc17e4bc-fb8a0.png 590w,
+/static/lumi-faces-04f93e95955a4e94d3e7df45bc17e4bc-d9514.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Personagem principal, claro, já que o jogo leva seu nome. É da raça Noctilla, que tem algumas características bem marcantes descritas mais pra frente no texto. É mulher e princesa do Reino Noctilla, que fica ao norte da Floresta do Labirinto, numa espécie de ilha flutuante. Tem uma aparência bem jovem, similar a uma humana de 18 anos. Tem os cabelos azulados, estatura e peso medianos. Sua roupa principal é um vestido preto e uma boina roxa - essa última representa sua formação nas artes arcanas Noctilla. Apesar do título, é um tanto modesta. Quando criança adorava viajar para o vilarejo Flokis próximo, onde brincava com os amigos Saulo e Silvana. Essa influencia a fez gostar muito de música, apesar de não ter nenhum talento nesse sentido. Estudou muito as artes de seu povo e pratica magia Noctilla de forma espontânea. Como símbolo de seus poderes, empunha Cetros e Cajados. Seu pai é o rei Antonio e sua mãe, rainha Valentina. No começo do jogo são introduzidos brevemente.&lt;/p&gt;
+&lt;p&gt;Apesar de única, parte das características da raça ajudam a explicar bastante sobre a personagem:&lt;/p&gt;
+&lt;h3&gt;Noctilla: Aparência&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/lumi-charset-9a8996989b686c15d0062e4cb20890dd-f9754.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 54.62610899873257%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACr0lEQVQozyWSW28aVxSF+Y156I9I1Lc+RVWkSGnUxLiYq2FgYJgbcwFmMMxwN1g0NmBsmdRui5o8RFFSu1Z/w9cd+rTP2efstdZeeyf6F3f0plsG8x2j2UfWv9+zvP2b1d09K4mbPx/2ufPtVzn/w+aPB652j/v88rf//+3j7T2Lmy8kLnb3TObvUcJ3/PKiRfJZwNuChd+akC36qOYJfntKvtIiU3Sp1AJ+PtJZLK54lVSpWl1yJY9U3qRiTUisdw84k0u+e1Hkh2QDIx2TK/t04zOqeoeaFESDX9EEWLNOMB15r3jMzjYc5Uzqdhe1HpLKGQT9FYnF7RfuPn7mydMf+f51icd/H3md0nDbY0rVtoB7nERnZBWXouqTEfVvjqo4zQF5xaZYdShUHH5KFsS6DYnT609cbnakygHP3+gMJisOcxZea0yu6KHUAxx/LGBtGn6forSeq/i0glN0OybszQlP5kIwYjjbkpjdfOZYfMmXfJRqgO5EAqhhez3x0KJYc6WtjrTfkuIpurStmgFhZ8KxIhbJm251hNwgml6JwptPeM0ptj3E9cZyHpPMWqJqSDrv7BV+U5eVgfjtEamsSaZkYzQiyiLAcvtYjb7Y06Q3EsDh8gN1R8BkkqoeEc+WlLQ27c4pZS3EcGP0Riw+tfYkecWTiXuyBWPqeihxiN8cUqu3iSYCOFp/oJruox7G5F+FdB1Zn2MLW5jTxw1UmbKqBVSk2PYiUW2SLVmiLELRfCyxxnR6IsKhM1iT6C//QlNjNKVLOR/S6yw4yBjUZU0OM6Z42KIsLX/zuGaE+9yBrIhlRlxdbjk/v2az3rKYrzi/3pEYi0I3XAjjBMufEUTvOChUMfwemYpFoeZgtWNqcnc7A0pGE9VukhbP3qYtDmUTMkL28qBGMLjgP/ixmYvfYelPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;lumi-charset&quot;
+        title=&quot;&quot;
+        src=&quot;/static/lumi-charset-9a8996989b686c15d0062e4cb20890dd-fb8a0.png&quot;
+        srcset=&quot;/static/lumi-charset-9a8996989b686c15d0062e4cb20890dd-1a291.png 148w,
+/static/lumi-charset-9a8996989b686c15d0062e4cb20890dd-2bc4a.png 295w,
+/static/lumi-charset-9a8996989b686c15d0062e4cb20890dd-fb8a0.png 590w,
+/static/lumi-charset-9a8996989b686c15d0062e4cb20890dd-f9754.png 789w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Eles tem uma cor de pele bem escura e próxima do preto, variando em nuances quase imperceptíveis de azul, verde e vermelho. O cabelo é branco, radiante, com nuances brilhantes que seguem o tom da pele. Não se sabe ao certo a expectativa de vida, mas se sabe que é pelo menos o dobro dos humanos. Tem a altura de um humano comum, com a diferença que os homens tem a mesma massa muscular e estatura das mulheres. Sua pele tem uma textura dura e na velhice não aparentam muitas rugas.&lt;/p&gt;
+&lt;h3&gt;Noctilla: Social &amp;#x26; Cultura&lt;/h3&gt;
+&lt;p&gt;Dizem que eles não dormem à noite, preferindo dormir várias vezes em poucos minutos ao dia, o que na soma não passa de 3 horas em média. Podem dormir de pé e falando, o que gera uma certa estranheza social para outras raças. Não possuem o hábito de ter camas, apesar de existir em certos lares e no castelo. Meditam quase sempre, mesmo quando em conflito, tentando achar pontos de vista diferentes, agindo em concordância com a maioria. Estudam os lados positivos e negativos em diversas situações e levam isso como filosofia de vida. Apesar dessa inclinação à diplomacia, sua cidade principal é governada como uma monarquia. Para eles é importante ter um sistema de governo diferente do que os outros povos possuem, já que Halidom tem um regime de parlamento. Eles tem muitas tradições contraditórias e as levam muito a sério. Seu povo só existe em um reino, que não é muito grande ou expressivo. Dizem que seus poderes aumentam quanto mais próximos do sol e da lua, por isso estarem numa ilha flutuante distante verticalmente do continente. Socialmente, passam a imagem de se darem bem com todos os povos, porém só vivem entre si, o que fazem os outros acharem isso uma falsidade enorme. Não se aliaram oficialmente a nenhum povo e nunca participaram das guerras, preferindo observar de longe. Esse comportamento os faz não terem representação oficial em Halidom, estando junto com os Apex, denominação dada a um conjunto de raças menores dos reinos. Consideram as Harpias como inimigos naturais, porém não incitam conflitos. Tem um ótimo relacionamento com os Flokis do vilarejo mais próximo do reino, porém não oficializam a aliança por não acreditarem que todos os Flokis se comportam da mesma maneira.&lt;/p&gt;
+&lt;h3&gt;Noctilla: Poderes&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/lumi-battle-showcase-4b76b4d30ad62f309856e8432c627dfa.gif&quot; alt=&quot;lumi-battle-showcase&quot;&gt;&lt;/p&gt;
+&lt;p&gt;É sabido que seus poderes advém tanto da Luz quanto da Sombra, manipulando as energias arcanas dentro desse espectro de acordo com seu humor e vontade. Os poderes geralmente tem duplo sentido, dependendo do seu alvo e de como o Noctilla quer o resultado. Fisicamente não são muito expressivos, exceto pela resistencia natural aos elementos e à escola do tempo-espaço. Portanto, seu exército tem uma força bruta relativamente mais frágil que a humana, com a diferença dos poucos manipuladores arcanos que existem.&lt;/p&gt;
+&lt;h3&gt;Curiosidade&lt;/h3&gt;
+&lt;p&gt;O nome Noctilla veio do latim: &lt;em&gt;Noct&lt;/em&gt; significa noite, &lt;em&gt;Illa&lt;/em&gt; significa dia. Devido à dualidade da raça e seus conceitos extremos, fui buscar algo que tivesse bem a ver e caiu como uma luva!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[O que aprendi + bônus!]]></title><description><![CDATA[Atenção! Esse é um post forçadão! Aconteceu o que eu temia: fiquei sem atualizar o blog por mais de 1 mês. Eu sei que pra quem lê essa é a…]]></description><link>https://bsides.github.io/lumirpg/2017-02-16-o-que-aprendi-e-bonus/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2017-02-16-o-que-aprendi-e-bonus/</guid><pubDate>Thu, 16 Feb 2017 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Atenção! Esse é um post forçadão!&lt;/p&gt;
+&lt;p&gt;Aconteceu o que eu temia: fiquei sem atualizar o blog por mais de 1 mês. Eu sei que pra quem lê essa é a frase mais chata &lt;em&gt;ever&lt;/em&gt;. Mas esse blog é meu e eu faço com ele o que eu bem entender! &lt;strong&gt;HÁ!&lt;/strong&gt;&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;Papo sério: aprender &lt;a href=&quot;https://unity3d.com&quot;&gt;Unity&lt;/a&gt; não é fácil. A interface é tranquila porque já havia &lt;em&gt;pegado o jeito&lt;/em&gt; há alguns anos, lá atrás na versão 3. Porém aprender sobre o framework, os métodos, o que, onde, por que… são outros quinhentos. Fora a nova linguagem, C# que, apesar de bem parecida com JavaScript, &lt;strong&gt;não é JavaScript&lt;/strong&gt;. Eu &lt;a href=&quot;%7B%25%20post_url%202017-01-12-progresso-atual%20%25%7D&quot;&gt;tentei&lt;/a&gt; programar por lá em JavaScript, porém o negócio deles é diferente e o que conheço da linguagem como válida, lá é um outro &lt;em&gt;trem&lt;/em&gt;. E reaprender o JavaScript deles pra mim é o mesmo que aprender outra linguagem. Então C# é o negócio!&lt;/p&gt;
+&lt;p&gt;O que pega também é que estou fazendo um jogo 2D e a interface do Unity tem tanto suporte a 3D que fica tudo um pouco confuso. A começar pela câmera, que às vezes é uma salada pra se movimentar. Outra coisa é o suporte a sprites, que parece simples, mas dá uns bugs de renderização que requerem uns hacks manuais, &lt;a href=&quot;http://answers.unity3d.com/questions/609736/gaps-sometimes-appearing-between-2d-sprites.html&quot;&gt;como esse daqui&lt;/a&gt;. Esses hacks me fazem questionar se a ferramenta está mesmo preparada para o 2D.&lt;/p&gt;
+&lt;h2&gt;Devaneios&lt;/h2&gt;
+&lt;p&gt;Como sou bem multimídia e deixo os devaneios me levarem onde eles quiserem por conta desse calor insano dessa cidade (uau, essa reclamação foi muito além do que eu esperava!) eu também resolvi pegar mais 2 projetos em paralelo. Um deles é um app para um amigo que não posso falar a respeito, feito em frontend web: JavaScript, HTML, CSS e aqueles frameworks deliciosos que tem por aí. O outro é aprender um framework frontend, tanto pra esse projeto quanto pro meu currículo: o &lt;a href=&quot;https://vuejs.org&quot;&gt;Vue&lt;/a&gt; (se pronuncia como a palavra em inglês &lt;em&gt;view&lt;/em&gt;). Ele me chamou a atenção por 2 motivos: não é Angular e não é React. Eu desenvolvi muita coisa nos últimos anos em Angular e ele mora no meu coração, porém é um &lt;em&gt;trem&lt;/em&gt; pesado à beça e a versão 2 é muito pra minha cabeça. React parece lindo e maravilhoso, mas tem algo no time do Facebook que não me agrada e aí o &lt;del&gt;preconceito&lt;/del&gt; instinto bate forte. Eu sei que ainda terei que aprender React um dia, mas estou me divertindo com o Vue e achando mais poderoso que qualquer coisa. Em tempo: &lt;a href=&quot;https://facebook.github.io/react/docs/jsx-in-depth.html&quot;&gt;JSX&lt;/a&gt; é a coisa mais deliciosa que já inventaram.&lt;/p&gt;
+&lt;p&gt;Enfim, fiz um parágrafo imenso que não tem nada a ver com o jogo. Fiz porque esse é um post forçadão, eu avisei!&lt;/p&gt;
+&lt;h2&gt;Bônus!&lt;/h2&gt;
+&lt;p&gt;Mas e o tal bônus? Ah, sim! Eu tive mais uma ideias para um personagem. O Alvaro (que já foi Zero e Antonio), o único humano do time da Lumi e seu guarda-costas oficial a pedido da mãe, terá um poder esquisito em algum momento da história. Ele poderá &lt;em&gt;retomar sua juventude&lt;/em&gt; e, nessa forma, ele deixa de ser ranzinza pra ser um baita boca suja. Fica mais atiradão, mais nervoso e xinga tudo que vê. A princípio, pro jogo permanecer familiar &lt;small&gt;(ou seja, crianças poderem jogar e eu não ser xingado por mães por aí)&lt;/small&gt;, eu pensei no xingamento ser uma palavra com o som parecido ao xingamento, mas não ser ele em si. Uma espécie de auto-censura &lt;a href=&quot;https://en.wikipedia.org/wiki/Frak_(expletive)&quot;&gt;como fazem em Battlestar Galactica&lt;/a&gt; e tantos outros por aí. Eu gostei tanto dessa ideia que já imaginei cenas onde usar e tudo mais.&lt;/p&gt;
+&lt;p&gt;Falando nisso, esse é um outro tópico que eu deveria logar por aqui: os personagens, suas motivações e suas histórias. Mas vou deixar isso pra outro post. No fundo, eu tenho um certo receio de alguém copiar, mas analisando bem, é parte da proposta desse site - eu não posso impedir cópias, eu não sei se quero e se alguém usar eu considero que minha ideia foi boa o bastante pra tal! :)&lt;/p&gt;
+&lt;p&gt;É isso por agora. Aproveitei todo o café nesse texto, porém vou lá desenvolver mais um pouco pra ter o que postar aqui &lt;del&gt;ainda essa semana&lt;/del&gt; em breve!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Progresso atual]]></title><description><![CDATA[Depois de quase 1 mês sem um post, resolvi que era hora de falar como anda o progresso do jogo. Justamente como a atualização aqui é…]]></description><link>https://bsides.github.io/lumirpg/2017-01-12-progresso-atual/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2017-01-12-progresso-atual/</guid><pubDate>Thu, 12 Jan 2017 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Depois de quase 1 mês sem um post, resolvi que era hora de falar como anda o progresso do jogo. Justamente como a atualização aqui é importante que eu decidi postar que o progresso foi praticamente zero.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Praticamente&lt;/em&gt; é a palavra-chave ali porque o jogo em si está parado no RPG Maker MV, porém eu parti para outros projetos porque as limitações da ferramenta me fizeram parar pra pensar um pouco no por que e como estava fazendo o jogo.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;A primeira coisa que me chamou a atenção é a dificuldade de fazer uma interface interessante, como &lt;a href=&quot;%7B%25%20post_url%202016-12-7-batalha-visual-primeira-versao%20%25%7D&quot;&gt;esses&lt;/a&gt; &lt;a href=&quot;%7B%25%20post_url%202016-12-9-apresentando-posicoes%20%25%7D&quot;&gt;posts&lt;/a&gt; ilustraram bem. Não é preguiça de programar, é ficar o tempo todo olhando de volta como o framework do RPG Maker MV e &lt;a href=&quot;http://www.pixijs.com/&quot;&gt;PIXI&lt;/a&gt; funcionam. Isso leva um tempo considerável e o resultado é tão pequeno que acaba sendo encoberto por frustrações.&lt;/p&gt;
+&lt;h2&gt;Mudança de paradigma&lt;/h2&gt;
+&lt;p&gt;Um belo dia de dezembro um amigo meu conversou comigo sobre como ele estava migrando para a área de frontend e como era aprender JavaScript. Logo o assunto mudou e estávamos falando do Unity e jogos indies. E aí minha cabeça começou a viajar em como seria esse jogo feito em &lt;a href=&quot;https://unity3d.com/&quot;&gt;Unity&lt;/a&gt; e se o estilo RPG estava realmente dentro de um escopo alcançável.&lt;/p&gt;
+&lt;p&gt;A resposta eu ainda não tenho, porém isso me abriu os olhos na quantidade de trabalho que posso fazer.&lt;/p&gt;
+&lt;h2&gt;Aprendendo Unity&lt;/h2&gt;
+&lt;p&gt;Enquanto eu não achava as respostas, fui fazendo alguns cursos online sobre o Unity e as possibilidades 2D que ele oferece. Acabei achando tanto material que fiquei abismado em como essa ferramenta cresceu desde que tive o primeiro contato com ela (perto da versão 2 ou 3 lá em 2011-2012). Hoje em dia, fazer jogos 2D com ela não parece mais uma grande gambiarra e o principal, eles ficam rápidos e relativamente fáceis de entender ao abrir um projeto. A comunidade é vibrante e não é fechada apenas a um &lt;a href=&quot;http://forums.rpgmakerweb.com/&quot;&gt;fórum bem difícil de navegar&lt;/a&gt; (sorry).&lt;/p&gt;
+&lt;p&gt;Eu ainda estou longe de entender exatamente tudo como funciona lá dentro e, apesar de eu poder programar em JavaScript, a linguagem tem uma interpretação diferente (principalmente nos tipos!) e eu ainda não entendi bem como ela funciona por lá - tanto que abri mão e comecei a programar em C#. E isso vai me tirando cada vez mais de onde estava e me colocando em um lugar completamente diferente.&lt;/p&gt;
+&lt;h2&gt;Questionando o gênero&lt;/h2&gt;
+&lt;p&gt;Isso inclui o jogo em si. Me questionei muito sobre seu gênero: talvez um &lt;a href=&quot;https://en.wikipedia.org/wiki/Metroidvania&quot;&gt;metroidvania&lt;/a&gt; seria mais divertido? Ou um &lt;a href=&quot;https://en.wikipedia.org/wiki/Roguelike&quot;&gt;roguelike&lt;/a&gt;? Ou tudo junto? Eu gosto muito da ideia de evoluir num jogo, ganhar novos poderes, usá-los (ter utilidade!), etc… que são típicos de um RPG. Entretanto, eu não quero ficar preso mais a balões de textos e talvez menos ainda em batalhas por turno. Todos os grandes RPGs estão fugindo disso por um bom motivo, porém uma luta em tempo real é tão difícil quanto um jogo inteiro. Muitos jogos inteiros são só &lt;em&gt;hack-n-slash&lt;/em&gt; por esse motivo.&lt;/p&gt;
+&lt;p&gt;Enquanto divago sobre prossibilidades, continuo a ver mais sobre o Unity. Já aprendi muitas coisas sobre colisões, controles, cenas e até um framework maravilhoso chamado &lt;a href=&quot;http://orkframework.com/&quot;&gt;ORK&lt;/a&gt;, que eu possuo desde a versão 1 e não havia estudado até então. Pretendo continuar aqui por um tempo e isso fará o desenvolvimento dar uma sossegada por enquanto. De qualquer forma, pretendo vir aqui e falar do progresso, mesmo que não seja inteiramente relacionada ao Lumi. Ele vai sair, talvez não como RPG, talvez não no RPG Maker MV - mas vai!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tabela de cores padrão]]></title><description><![CDATA[{% capture squareColor %}   {% endcapture %} Resolvi postar algo que sempre esqueço: a tabela de cores padrão. Essas cores são usadas por…]]></description><link>https://bsides.github.io/lumirpg/2016-12-21-tabela-cores-padrao/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2016-12-21-tabela-cores-padrao/</guid><pubDate>Wed, 21 Dec 2016 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;{% capture squareColor %}&lt;svg width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 16 16&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;16&quot; height=&quot;16&quot; fill=&quot;#var1&quot;&gt;&lt;/rect&gt;&lt;/svg&gt; &lt;code class=&quot;language-text&quot;&gt;#var1&lt;/code&gt;{% endcapture %}&lt;/p&gt;
+&lt;p&gt;Resolvi postar algo que sempre esqueço: a tabela de cores padrão. Essas cores são usadas por todo seu jogo e vem junto com sua &lt;code class=&quot;language-text&quot;&gt;windowskin&lt;/code&gt;. São aqueles quadradinhos embaixo e à direita da imagem.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;Cada um dos quadrados representa uma cor, com o total de 32 cores. Na escala de cores para ser usada no código dos diálogos (exemplo: &lt;code class=&quot;language-text&quot;&gt;\c[3]esse texto é verde limão\c[0] e voltou a ser branco&lt;/code&gt;), a primeira cor começa em 0 (zero).&lt;/p&gt;
+&lt;p&gt;{:.table-colors}
+| # | Cor | Hex | RGB | Nome aprox. | Muitas infos |
+| :---: | :--- | :---: | :---: | ---: | ---: |
+| 0 | Branco | {{ squareColor | replace: ‘var1’, ‘ffffff’ }} | 255, 255, 255 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#FFFFFF&quot;&gt;White&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ffffff&quot;&gt;White&lt;/a&gt;
+| 1 | Azul | {{ squareColor | replace: ‘var1’, ‘20a0d6’ }} | 32, 160, 214 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#20A0D6&quot;&gt;Curious Blue&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/20a0d6&quot;&gt;Strong blue&lt;/a&gt; |
+| 2 | Coral | {{ squareColor | replace: ‘var1’, ‘ff784c’ }} | 255, 120, 76 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#FF784C&quot;&gt;Coral&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ff784c&quot;&gt;Light red&lt;/a&gt; |
+| 3 | Verde limão | {{ squareColor | replace: ‘var1’, ‘66cc40’ }} | 102, 204, 64 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#66CC40&quot;&gt;Atlantis&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/66cc40&quot;&gt;Moderate green&lt;/a&gt; |
+| 4 | Azul bebê | {{ squareColor | replace: ‘var1’, ‘99ccff’ }} | 153, 204, 255 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#99CCFF&quot;&gt;Anakiwa&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/99ccff&quot;&gt;Very light blue&lt;/a&gt; |
+| 5 | Lilás | {{ squareColor | replace: ‘var1’, ‘ccc0ff’ }} | 204, 192, 255 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#CCC0FF&quot;&gt;Melrose&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ccc0ff&quot;&gt;Very pale blue&lt;/a&gt; |
+| 6 | Amarelo claro | {{ squareColor | replace: ‘var1’, ‘ffffa0’ }} | 255, 255, 160 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#FFFFA0&quot;&gt;Milan&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ffffa0&quot;&gt;Pale yellow&lt;/a&gt; |
+| 7 | Cinza | {{ squareColor | replace: ‘var1’, ‘808080’ }} | 128, 128, 128 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#808080&quot;&gt;Gray&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/808080&quot;&gt;Dark gray&lt;/a&gt; |
+| 8 | Cinza claro | {{ squareColor | replace: ‘var1’, ‘c0c0c0’ }} | 192, 192, 192 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#C0C0C0&quot;&gt;Prata&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/c0c0c0&quot;&gt;Light gray&lt;/a&gt; |
+| 9 | Azul forte | {{ squareColor | replace: ‘var1’, ‘2080cc’ }} | 32, 128, 204 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#2080CC&quot;&gt;Curious Blue&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/2080cc&quot;&gt;Strong Blue&lt;/a&gt; |
+| 10 | Escarlate | {{ squareColor | replace: ‘var1’, ‘ff3810’ }} | 255, 56, 16 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#FF3810&quot;&gt;Scarlet&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ff3810&quot;&gt;Vivid red&lt;/a&gt; |
+| 11 | Verde | {{ squareColor | replace: ‘var1’, ‘00a010’ }} | 0, 160, 16 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#00A010&quot;&gt;Japanese Laurel&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ff3810&quot;&gt;Dark lime green&lt;/a&gt; |
+| 12 | Azul brilhante | {{ squareColor | replace: ‘var1’, ‘3e9ade’ }} | 62, 154, 222 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#3E9ADE&quot;&gt;Picton Blue&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/3e9ade&quot;&gt;Bright blue&lt;/a&gt; |
+| 13 | Roxo | {{ squareColor | replace: ‘var1’, ‘a098ff’ }} | 160, 152, 255 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#A098FF&quot;&gt;Melrose&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/a098ff&quot;&gt;Very light blue&lt;/a&gt; |
+| 14 | Amarelo gema | {{ squareColor | replace: ‘var1’, ‘ffcc20’ }} | 255, 204, 32 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#FFCC20&quot;&gt;Lightning Yellow&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ffcc20&quot;&gt;Vivid yellow&lt;/a&gt; |
+| 15 | Preto | {{ squareColor | replace: ‘var1’, ‘000000’ }} | 0, 0, 0 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#000000&quot;&gt;Black&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/000000&quot;&gt;Black&lt;/a&gt; |
+| 16 | Azul | {{ squareColor | replace: ‘var1’, ‘84aaff’ }} | 132, 170, 255 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#84AAFF&quot;&gt;Malibu&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/84aaff&quot;&gt;Very light blue&lt;/a&gt; |
+| 17 | Amarelo | {{ squareColor | replace: ‘var1’, ‘ffff40’ }} | 255, 255, 64 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#FFFF40&quot;&gt;Golden Fizz&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ffff40&quot;&gt;Light yellow&lt;/a&gt; |
+| 18 | Vermelho | {{ squareColor | replace: ‘var1’, ‘ff2020’ }} | 255, 32, 32 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#FF2020&quot;&gt;Torch Red&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ff2020&quot;&gt;Vivid red&lt;/a&gt; |
+| 19 | Azul escuro | {{ squareColor | replace: ‘var1’, ‘202040’ }} | 32, 32, 64 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#202040&quot;&gt;Mirage&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/202040&quot;&gt;Very dark desaturated blue&lt;/a&gt; |
+| 20 | Laranja | {{ squareColor | replace: ‘var1’, ‘e08040’ }} | 224, 128, 64 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#E08040&quot;&gt;Red Damask&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/e08040&quot;&gt;Bright orange&lt;/a&gt; |
+| 21 | Amarelo | {{ squareColor | replace: ‘var1’, ‘f0c040’ }} | 240, 192, 64 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#F0C040&quot;&gt;Ronchi&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/f0c040&quot;&gt;Bright orange&lt;/a&gt; |
+| 22 | Azul | {{ squareColor | replace: ‘var1’, ‘4080c0’ }} | 64, 128, 192 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#4080C0&quot;&gt;Steel Blue&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/4080c0&quot;&gt;Moderate blue&lt;/a&gt; |
+| 23 | Ciano | {{ squareColor | replace: ‘var1’, ‘40c0f0’ }} | 64, 192, 240 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#40C0F0&quot;&gt;Picton Blue&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/40c0f0&quot;&gt;Bright blue&lt;/a&gt; |
+| 24 | Menta | {{ squareColor | replace: ‘var1’, ‘80ff80’ }} | 64, 192, 240 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#80FF80&quot;&gt;Mint Green&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/80ff80&quot;&gt;Very light lime green&lt;/a&gt; |
+| 25 | Vermelho pálido | {{ squareColor | replace: ‘var1’, ‘c08080’ }} | 192, 128, 128 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#C08080&quot;&gt;Old Rose&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/c08080&quot;&gt;Slightly desaturated red&lt;/a&gt; |
+| 26 | Azul pálido | {{ squareColor | replace: ‘var1’, ‘8080ff’ }} | 128, 128, 255 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#8080FF&quot;&gt;Malibu&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/8080ff&quot;&gt;Very light blue&lt;/a&gt; |
+| 27 | Rosa | {{ squareColor | replace: ‘var1’, ‘ff80ff’ }} | 255, 128, 255 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#FF80FF&quot;&gt;Blush Pink&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/ff80ff&quot;&gt;Very light magenta&lt;/a&gt; |
+| 28 | Verde ciano | {{ squareColor | replace: ‘var1’, ‘00a040’ }} | 0, 160, 64 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#00A040&quot;&gt;Green Haze&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/00a040&quot;&gt;Dark cyan - lime green&lt;/a&gt; |
+| 29 | Verde ciano | {{ squareColor | replace: ‘var1’, ‘00e060’ }} | 0, 224, 96 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#00E060&quot;&gt;Malachite&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/00e060&quot;&gt;Pure (or mostly pure) cyan - lime green&lt;/a&gt; |
+| 30 | Roxo | {{ squareColor | replace: ‘var1’, ‘a060e0’ }} | 160, 96, 224 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#A060E0&quot;&gt;Medium Purple&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/a060e0&quot;&gt;Soft violet&lt;/a&gt; |
+| 31 | Violeta | {{ squareColor | replace: ‘var1’, ‘c080ff’ }} | 192, 128, 255 | &lt;a href=&quot;http://chir.ag/projects/name-that-color/#C080FF&quot;&gt;Heliotrope&lt;/a&gt; | &lt;a href=&quot;http://www.colorhexa.com/a060e0&quot;&gt;Very light violet&lt;/a&gt; |&lt;/p&gt;
+&lt;h1&gt;Fazendo essa tabela no Jekyll&lt;/h1&gt;
+&lt;p&gt;Infelizmente o markdown quebra se eu usar um &lt;code class=&quot;language-text&quot;&gt;include&lt;/code&gt; para inserir os quadradinhos na tabela via &lt;code class=&quot;language-text&quot;&gt;liquid tag&lt;/code&gt;. Então tive que fazer manualmente cada um inline! Entretanto, arrumei um jeito um pouco mais &lt;em&gt;DRY&lt;/em&gt; de fazer os quadrinhos. Criei uma variável, a capturei e depois, ao chamá-la, dou um replace apenas na cor.&lt;/p&gt;
+&lt;p&gt;Minha variável:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;liquid&quot;&gt;
+      &lt;pre class=&quot;language-liquid&quot;&gt;&lt;code class=&quot;language-liquid&quot;&gt;{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}
+{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;capture&lt;/span&gt; squareColor &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;svg width&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&quot; height&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&quot; viewBox&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&quot; xmlns&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;http&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;www.w3.org&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;svg&quot;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;rect x&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&quot; y&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&quot; width&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&quot; height&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&quot; fill&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;var1&quot;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;rect&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;svg&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; `var1`
+{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;endcapture&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}
+{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;endraw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;E então chamo assim:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;liquid&quot;&gt;
+      &lt;pre class=&quot;language-liquid&quot;&gt;&lt;code class=&quot;language-liquid&quot;&gt;{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}
+{{ squareColor &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &apos;var1&apos;, &apos;#ffffff&apos; }}
+{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;endraw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Eu poderia ter feito isso para os links também. Talvez eu o faça, mas só pensei isso agora, no fim do documento. Fica pra uma próxima? :+1:&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Imagens locais]]></title><description><![CDATA[Sei que estou postando muito sobre o  Jekyll  e pouco sobre o jogo em si, mas ele me ajudou tanto a resolver o formato e a infra do blog que…]]></description><link>https://bsides.github.io/lumirpg/2016-12-15-imagens-locais/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2016-12-15-imagens-locais/</guid><pubDate>Thu, 15 Dec 2016 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Sei que estou postando muito sobre o &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; e pouco sobre o jogo em si, mas ele me ajudou tanto a resolver o formato e a infra do blog que resolvi postar sobre ele também. Afinal estou perdendo um tempo considerável nisso e é bom relatar de qualquer maneira. Hoje resolvi colocar as imagens do site localmente. Por que?&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;Antes: Usando Puush e ShareX&lt;/h2&gt;
+&lt;p&gt;Estava hospedando as imagens no &lt;a href=&quot;https://puush.me&quot;&gt;Puush&lt;/a&gt;. Primeiro porque é muito simples escrever markdown com imagens externas, a tag é como um link, fácil e intuitiva:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![](link-para-a-imagem)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Enquanto estou fazendo o jogo, aperto &lt;code class=&quot;language-text&quot;&gt;CTRL+SHIFT+4&lt;/code&gt; me traz o &lt;a href=&quot;https://getsharex.com&quot;&gt;ShareX&lt;/a&gt; e um cursor para selecionar parte da tela que quero transformar em imagem. Depois que selecionei (ou só dei um click simples para capturar a janela toda) ele envia automaticamente pro serviço que escolhi. O serviço é o Puush nesse caso. Assim que a imagen é enviada, ele me traz um link na área de transferencia e aí era só dar &lt;code class=&quot;language-text&quot;&gt;CTRL+v&lt;/code&gt; na tag acima.&lt;/p&gt;
+&lt;h2&gt;Por que mudei?&lt;/h2&gt;
+&lt;p&gt;Isso serve bastante para coisas que você não vai precisar depois de 1 mês, já que essa é a duração das imagens nesse serviço - &lt;strong&gt;e isso eu não sabia&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Resolvi então procurar por outro serviço onde as imagens não morriam depois de 1 mês, mas percebi que isso faria que as imagens ficariam fora do meu repositório / infra de qualquer maneira e caso o serviço deixasse de existir por algum motivo, eu não teria mais as imagens. O principal desse projeto é documentar o desenvolvimento desse jogo e uma documentação sem informação suficiente acabaria ficando incompleta, obviamente.&lt;/p&gt;
+&lt;h2&gt;Prevendo a solução&lt;/h2&gt;
+&lt;p&gt;Então decidi que as imagens ficariam localmente. Para inserir uma imagem localmente, seria tão simples quanto uma externa:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;
+      &lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;![]({{ site.url }}/assets/imagem.ext)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Porém esse formato iria ficar velho logo. Imagine esse diretório cheio de imagens sem nenhuma organização… seria um horror! Então decidi organizar o diretório por ano e mês, assim saberia pelo menos uma referencia sobre onde buscar a imagen mais tarde caso necessário. As imagens então ficam em &lt;code class=&quot;language-text&quot;&gt;/assets/posts/ANO/MÊS&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Entra o include&lt;/h2&gt;
+&lt;p&gt;Em uma busca rápida pelo google encontrei &lt;a href=&quot;https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html&quot;&gt;esse post&lt;/a&gt; de um blog feito em Jekyll. Achei a solução bem simples e elegante (&lt;a href=&quot;https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html#comment8&quot;&gt;obrigado Eduardo Boucas!&lt;/a&gt;), então resolvi aplicar aqui. Alterei a solução dele para ter apenas ano e mês no caminho pra imagem e voilà! Agora, para incluir uma imagem, ao invés da tag anterior eu uso:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;liquid&quot;&gt;
+      &lt;pre class=&quot;language-liquid&quot;&gt;&lt;code class=&quot;language-liquid&quot;&gt;{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}
+&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;[NOME&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;DA&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;IMAGEM](./NOME&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;DA&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;IMAGEM.png)
+{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;endraw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h2&gt;Pequenos problemas&lt;/h2&gt;
+&lt;p&gt;Isso resolveu a questão rapidamente, porém para os layouts funcionarem foi outra questão. Lá eu tive que manualmente construir o link. Acredito que no layout do post não teria problema, mas no &lt;code class=&quot;language-text&quot;&gt;index.html&lt;/code&gt;, como uso o &lt;a href=&quot;https://jekyllrb.com/docs/pagination&quot;&gt;Jekyll Pagination&lt;/a&gt;, ele não funcionava bem, não conseguindo traduzir as variáveis &lt;code class=&quot;language-text&quot;&gt;post.date&lt;/code&gt; / &lt;code class=&quot;language-text&quot;&gt;page.date&lt;/code&gt; direito. Então foi só uma questão de ajustar diretamente:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;liquid&quot;&gt;
+      &lt;pre class=&quot;language-liquid&quot;&gt;&lt;code class=&quot;language-liquid&quot;&gt;{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}
+{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; post.featured &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div class&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;list&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;post&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;featured&quot;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;img src&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;{{ site.url }}&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;assets&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;posts&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;{{ post.date &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &apos;&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;Y&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;m&apos; }}&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;{{ post.featured }}&quot; alt&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&quot;Destaque&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; {{ post.title }}&quot;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;endif&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}
+{&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;endraw&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;E agora, no &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter&quot;&gt;Front Matter&lt;/a&gt;, eu só coloco o nome da imagem que será a imagem de destaque na postagem. Simples e bem interessante!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Migrado para o Jekyll e Github Pages]]></title><description><![CDATA[Não consegui achar uma ferramenta de blog que tivesse um editor de Markdown competente. Ambos  Wordpress  e  Tumblr  prometem a ferramenta…]]></description><link>https://bsides.github.io/lumirpg/2016-12-13-migrado-para-jekyll-github-pages/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2016-12-13-migrado-para-jekyll-github-pages/</guid><pubDate>Tue, 13 Dec 2016 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Não consegui achar uma ferramenta de blog que tivesse um editor de Markdown competente. Ambos &lt;a href=&quot;https://wordpress.com&quot;&gt;Wordpress&lt;/a&gt; e &lt;a href=&quot;https://tumblr.com&quot;&gt;Tumblr&lt;/a&gt; prometem a ferramenta, mas apresentam de forma super pobre. &lt;a href=&quot;%7B%25%20post_url%202016-12-11-mudanca-de-host%20%25%7D&quot;&gt;Como já disse antes&lt;/a&gt; eu entendo que o público alvo desses sites são muito amplos para atender esse tipo de especificação, então eu achei melhor mudar de vez de ferramenta.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;Eu já havia flertado com o &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; antes, mas achava muito complicado, sem sequer testar. Eu fiquei positivamente surpreso ao descobrir o quão fácil é fazê-lo funcionar. Eu tive uns problemas por usar Windows, mas isso eu já esperava.&lt;/p&gt;
+&lt;p&gt;O guia no site do Jekyll é bem simples de usar. Eu instalei o ruby via &lt;a href=&quot;https://chocolatey.org/&quot;&gt;Chocolatey&lt;/a&gt; e o resto foi bem simples, apesar de trabalhoso.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07hxUuB-5d9ef9f7ae10c8472cd543fef9c93df1-a74b1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 345px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.92753623188406%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABhUlEQVQoz5WQ72/SUBSG+/9/NjFzYZOxuEQjsgFzP0CW7MNcQoKibIUJlLZQGGGr6yi2ve3jvUVmsmmib/LkPffNueeeXM00TeI4ZrFYkCQJQRCg5Ps+Qoi0VvmfUFI9ilWmOY5Du91G1/V0iKqVarUarus+DHysVWZZFt1uN+0NwxDNMIwnzbF88V8RUUQURqmrs3Z5JbfrfcMY2rQ6OsPJeLnBf7KS1j5r4F308HSD6dcefl8OnN7D+A6uvSWTX/XEe5pN59LviR0XMbpFG6yXGJR0rEKT7zun2C8rDDIHTHI1zMxhipOtYm0cYm8ePWQj2ddf36f1LM/VWhH/zTlBvo5mZ9+ze6CTLbS43q5wkSnR2dynv3XEl7UCg1yF0c4JRu4Yc7ua5soV+kaZxvO3XMo78706YfkzWudFmaBYZ57/yN3rM8a5D8xeneJsVeUDJ4jdxl+J9z5BsUkiPXhX54fasH/elP/lIawZ8fAGRi7J8HbpEmHPlliPXBJZvxH2TcpP+vyVXG3CyekAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;07hxUuB&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07hxUuB-5d9ef9f7ae10c8472cd543fef9c93df1-a74b1.png&quot;
+        srcset=&quot;/static/07hxUuB-5d9ef9f7ae10c8472cd543fef9c93df1-178b7.png 148w,
+/static/07hxUuB-5d9ef9f7ae10c8472cd543fef9c93df1-9bbcc.png 295w,
+/static/07hxUuB-5d9ef9f7ae10c8472cd543fef9c93df1-a74b1.png 345w&quot;
+        sizes=&quot;(max-width: 345px) 100vw, 345px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;O mais chato foi ter que adicionar variáveis de sistema no Windows, algo que nunca precisei, mas que é necessário para que o certificado SSL não dê erros. Peguei um certificado &lt;a href=&quot;https://curl.haxx.se/ca/cacert.pem&quot;&gt;daqui&lt;/a&gt; e coloquei como variável do sistema. Também &lt;a href=&quot;https://github.com/settings/tokens/new&quot;&gt;gerei um token&lt;/a&gt; pro Jekyll no github.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/NNuosui-0dca3f0a87c965fc08a59ef9569d9ec7-bf759.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 25.267993874425727%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABCklEQVQY033QTUvDQBSF4fz//+FKEFyJLl24qaAipflo2pgmnSSTTGamSfqR4us0IrgQFw+zuMPh3uOJMEFuC2QmsFLxeRg570+Mw5FTf+A8XBz/4eaXf8eRPtriFZscURRUUqLaFqMqtBT0umbc77DW/Mn8Yo3GDjva5QYvjxPieMU2zzHGcP+Wc/X0wfWz4GGhKNsOZQca09PYb8ppdwO620/vZd66q6ogx8tcoB8ExMsYIQoeg5rbF8HNLOXuNUPUegpoTDdRjtQd61IT5Q2ptBSuqo1sKHy34TZJp0B/4ROGIaoSlOmKJFqQJzGlq0O7Kn5Y3VLWircoYzaPma8FabLGj0LEe8QXqjx1ka3YDEUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;NNuosui&quot;
+        title=&quot;&quot;
+        src=&quot;/static/NNuosui-0dca3f0a87c965fc08a59ef9569d9ec7-fb8a0.png&quot;
+        srcset=&quot;/static/NNuosui-0dca3f0a87c965fc08a59ef9569d9ec7-1a291.png 148w,
+/static/NNuosui-0dca3f0a87c965fc08a59ef9569d9ec7-2bc4a.png 295w,
+/static/NNuosui-0dca3f0a87c965fc08a59ef9569d9ec7-fb8a0.png 590w,
+/static/NNuosui-0dca3f0a87c965fc08a59ef9569d9ec7-bf759.png 653w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/pZQ0UKY-8f7bfa923765a5c27f9ebad6faa14143-bf759.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 25.267993874425727%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA/klEQVQY03XQS3OCMBSGYf//X+uq03HkYhBQSEiEXBAUa/s20i7cdPHMSeZkviRnYyvJuVWYkySYAZYHX9eF79t99Zhvf5Z/xN4ULZ9MectGNxKpFNoYrLVo3UUaJSVKxUuCZxzDWl/5F8E7wjxi90c2J1EiREHbNDjnyYqadF+SRKmoqJoOY0eGMNP7iT5McT1hxxl3ua712bPXOzptfgOTNEXsBa1U1K0mL6o1UJRHirpBD34N6f2FITLuwqFz5E1PbQIqjupoelQSX9iW9RqY7BKyLKOL36zKQ9zvKITAxBF453B2iCzBWbrzwHt+4m0r2B4k9fN8niE/cn4AZsR2ioQ39SoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;pZQ0UKY&quot;
+        title=&quot;&quot;
+        src=&quot;/static/pZQ0UKY-8f7bfa923765a5c27f9ebad6faa14143-fb8a0.png&quot;
+        srcset=&quot;/static/pZQ0UKY-8f7bfa923765a5c27f9ebad6faa14143-1a291.png 148w,
+/static/pZQ0UKY-8f7bfa923765a5c27f9ebad6faa14143-2bc4a.png 295w,
+/static/pZQ0UKY-8f7bfa923765a5c27f9ebad6faa14143-fb8a0.png 590w,
+/static/pZQ0UKY-8f7bfa923765a5c27f9ebad6faa14143-bf759.png 653w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Além disso, tive que instalar o &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;Ruby Dev Kit&lt;/a&gt; e fazê-lo funcionar com o Ruby da máquina, o que pareceu complicado, mas não foi nada de outro mundo - basta fazer rodá-lo com o path da máquina.&lt;/p&gt;
+&lt;p&gt;Para melhorar o visual do blog eu também fiz várias alterações no tema padrão &lt;a href=&quot;https://github.com/jekyll/minima&quot;&gt;minima&lt;/a&gt;, colocando alguns extras do tema &lt;a href=&quot;https://aweekj.github.io/Kiko-plus/&quot;&gt;Kiko Plus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tenho agora um blog mais completo, que posso escrever diretamente no &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime&lt;/a&gt; ou qualquer outro editor, como o &lt;a href=&quot;https://code.visualstudio.com&quot;&gt;Visual Studio Code&lt;/a&gt;, que tenho usado bastante. E o melhor, com Markdown completo, com block de código colorido e sem frescura. Também tenho o poder de colocar imagens no &lt;a href=&quot;https://puush.me&quot;&gt;Puush&lt;/a&gt; como já estava fazendo e comentários com o &lt;a href=&quot;https://disqus.com&quot;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O último passo será colocar o &lt;a href=&quot;https://www.ampproject.org&quot;&gt;Google AMP&lt;/a&gt; e fazer deploy do site no Github apenas do site publicado e não com o source todo. Esses eu planejo fazer mais pra frente, já que o AMP é super limitado e o deploy no Github tirar parte da praticidade de só escrever documentos no Jekyll.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mudança de host?]]></title><description><![CDATA[Estou estudando a possibilidade de mudança de host. A vida toda acostumei em ter o próprio servidor VPS, porém como atualmente estou falido…]]></description><link>https://bsides.github.io/lumirpg/2016-12-11-mudanca-de-host/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2016-12-11-mudanca-de-host/</guid><pubDate>Sun, 11 Dec 2016 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Estou estudando a possibilidade de mudança de host. A vida toda acostumei em ter o próprio servidor VPS, porém como atualmente estou falido, não estou podendo. Sempre hospedei meus sites do meu jeito, com meus softwares e o Wordpress ou &lt;a href=&quot;https://ghost.org&quot; target=&quot;_blank&quot;&gt;Ghost&lt;/a&gt; foram ferramentas que usei no passado que ajudaram muito. Entretanto essa versão pública do Wordpress é muito pobre no editor markdown, o que me deixa muito insatisfeito.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;Tentei outras ferramentas já como o &lt;a href=&quot;https://tumblr.com&quot; target=&quot;_blank&quot;&gt;Tumblr&lt;/a&gt; e o &lt;a href=&quot;https://medium.com&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt;, mas eles também deixam muito a desejar. Eu entendo que o público alvo desses sites esperam um editor mais visual e mais com a cara deles, algo que não tem nada a ver comigo infelizmente.&lt;/p&gt;
+&lt;p&gt;Talvez eu migre para o &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot;&gt;Github Pages&lt;/a&gt; usando &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; o que pode me dar um trabalho imenso, pois nunca usei. Eu adoro linha de código e tudo mais, porém gostaria que essa experiência fosse um pouco mais fácil e visual, já que o restante está em muito mais código. Eu tentei achar algum Jekyll fácil por aí, com algum editor builtin ou algo completo num &lt;a href=&quot;http://electron.atom.io/&quot; target=&quot;_blank&quot;&gt;Electron&lt;/a&gt; da vida, mas sem sucesso. Eu posso editar os posts no Sublime ou algum editor de Markdown boladão, porém terei que aprender como funciona o Jekyll integralmente.&lt;/p&gt;
+&lt;p&gt;O maior desafio é permanecer no Windows com essas ferramentas. Seria meu sonho se alguém fizesse um terminal decente pro Windows?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apresentando posições]]></title><description><![CDATA[Lumi não esperava por essa! Para protegê-la, Alvaro empurra Lumi pra retaguarda. Para facilitar a introdução sobre posições em batalha, do…]]></description><link>https://bsides.github.io/lumirpg/2016-12-9-apresentando-posicoes/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2016-12-9-apresentando-posicoes/</guid><pubDate>Fri, 09 Dec 2016 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Lumi não esperava por essa! Para protegê-la, Alvaro empurra Lumi pra retaguarda.&lt;/p&gt;
+&lt;p&gt;Para facilitar a introdução sobre posições em batalha, do plugin do &lt;a href=&quot;http://yanfly.moe/2016/01/02/yep-54-row-formation/&quot; target=&quot;_blank&quot;&gt;Yanfly Row Formation&lt;/a&gt;, resolvi fazer um Action Sequence que cabe dentro do meu jogo. Ainda não estou 100% satisfeito com o resultado, mas está 90% do que pretendo.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;&lt;img src=&quot;/wP6h7mx-bcf8d47dc27d919a4c140f8ed3de729b.gif&quot; alt=&quot;wP6h7mx&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Pra conseguir esse efeito, eu usei os seguintes plugins do &lt;a href=&quot;http://yanfly.moe/yep/&quot;&gt;Yanfly&lt;/a&gt;: &lt;a href=&quot;http://yanfly.moe/2015/10/10/yep-3-battle-engine-core&quot;&gt;Battle Engine Core&lt;/a&gt;, &lt;a href=&quot;http://yanfly.moe/2015/10/11/yep-4-action-sequence-pack-1/&quot; target=&quot;_blank&quot;&gt;Action Sequences 1&lt;/a&gt;, &lt;a href=&quot;http://yanfly.moe/2015/10/12/yep-5-action-sequence-pack-2/&quot; target=&quot;_blank&quot;&gt;Action Sequences 2&lt;/a&gt;, &lt;a href=&quot;http://yanfly.moe/2015/10/12/yep-6-action-sequence-pack-3/&quot; target=&quot;_blank&quot;&gt;Action Sequences 3&lt;/a&gt; - provavelmente não precisa desse último, mas pretendo adicionar alguns efeitos de câmera mais pra frente. Para os efeitos nas mensagens, &lt;a href=&quot;http://yanfly.moe/2015/10/10/yep-2-message-core/&quot; target=&quot;_blank&quot;&gt;Message Core&lt;/a&gt;, &lt;a href=&quot;http://yanfly.moe/2016/01/30/yep-65-extended-message-pack-1/&quot; target=&quot;_blank&quot;&gt;Extended Message Pack 1&lt;/a&gt;, &lt;a href=&quot;http://yanfly.moe/2016/02/21/yep-73-message-macros-rpg-maker-mv/&quot; target=&quot;_blank&quot;&gt;Message Macros&lt;/a&gt; e claro, pra posicionar, o &lt;a href=&quot;http://yanfly.moe/2016/01/02/yep-54-row-formation/&quot; target=&quot;_blank&quot;&gt;Row Formation&lt;/a&gt;. Pra não precisar explicar tudo isso de novo, eu vou colocar isso no site em algum lugar em breve.&lt;/p&gt;
+&lt;p&gt;Antes de explicar como consegui o efeito acima, eu gostaria muito que alguém fizesse um addon / plugin que fizesse loop do motion desejado… por enquanto, se você insere o comando motion target: action ele executa e o loop fica configurado no core do motion; ou seja, pra alguns motions existe loop, pra outros não.&lt;/p&gt;
+&lt;p&gt;Primeiro, configurando a habilidade. Ela chama-se &lt;strong&gt;Para trás&lt;/strong&gt; e tem como alvo &lt;code class=&quot;language-text&quot;&gt;1 Aliado&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;target action&amp;gt;
+  move user: target, front base, 12
+  wait for movement
+  face user: backward
+  se: attack_axe
+  motion thrust: user, no weapon
+  wait: 12
+
+  motion damage: target
+  move target: forward, -60, 6
+  wait: 12
+  motion escape: target
+  wait: 12
+
+  jump target: 50%, 12
+  move target: forward, -120, 6
+  motion abnormal: target
+  wait for jump
+  se: attack_rod
+  add state 26: target
+
+  common event: 2
+  wait: 24
+  move user: home, 12
+  wait for movement
+  face user: forward
+&amp;lt;/target action&amp;gt;
+
+&amp;lt;setup action&amp;gt;
+  hide battle hud
+&amp;lt;/setup action&amp;gt;
+
+&amp;lt;finish action&amp;gt;
+  show battle hud
+&amp;lt;/finish action&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Ufa! Na tropa, eu coloco o texto inicial do Alvaro Para trás!. Eu também tive que chamar um &lt;code class=&quot;language-text&quot;&gt;script call&lt;/code&gt; porque por algum motivo o &lt;code class=&quot;language-text&quot;&gt;Forced Action&lt;/code&gt; não estava funcionando. Deveria funcionar diretamente com ele, mas se não funcionar, segue o código:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; actor1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; $gameParty&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;members&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; actor2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; $gameParty&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;members&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+actor2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forceAction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; actor1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+BattleManager&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;forceAction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;actor2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;O &lt;code class=&quot;language-text&quot;&gt;Common Event 2&lt;/code&gt; é onde a Lumi reage, onde rola o restante do texto e depois retira o &lt;code class=&quot;language-text&quot;&gt;State 26&lt;/code&gt; dela. Falando nisso, esse state eu fiz apenas por comesmética, pra ficar mostrando as estrelas rodando na cabeça e os pontos de interrogação. Pra fazer a animação ficar em loop nela, é necessário o plugin &lt;a href=&quot;http://yanfly.moe/2016/08/20/yep-114-visual-state-effects-rpg-maker-mv/&quot;&gt;Visual State Effects&lt;/a&gt;, também do Yanfly. Nesse state eu coloquei a tag da animação que ficará em loop: &lt;code class=&quot;language-text&quot;&gt;&amp;lt;State Animation: 306&amp;gt;&lt;/code&gt;; e também marquei &lt;code class=&quot;language-text&quot;&gt;SV Overlay: Confusion&lt;/code&gt;, que são os pontos de interrogação animados.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Batalha - Visual, primeira versão]]></title><description><![CDATA[O principal do jogo pra mim é que a batalha seja divertida, bonita, bem pensada, organizada e com desafios. Decidi então fazer pelo menos…]]></description><link>https://bsides.github.io/lumirpg/2016-12-7-batalha-visual-primeira-versao/</link><guid isPermaLink="false">https://bsides.github.io/lumirpg/2016-12-7-batalha-visual-primeira-versao/</guid><pubDate>Wed, 07 Dec 2016 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;O principal do jogo pra mim é que a batalha seja divertida, bonita, bem pensada, organizada e com desafios. Decidi então fazer pelo menos que o básico não se pareça tanto com o padrão do RPG Maker.&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;Comecei com os menus de batalha:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b3y3IFb-78bd84148bd9cbc2daaa3a048cc72def-d556a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.692307692307686%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAF68kZNFBX/xAAYEAADAQEAAAAAAAAAAAAAAAAAARIDIv/aAAgBAQABBQLNQadjxZTlNlM//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAES/9oACAEDAQE/AZRKP//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8B1cv/xAAXEAADAQAAAAAAAAAAAAAAAAABEDEy/9oACAEBAAY/AqtBVf/EABoQAQEAAgMAAAAAAAAAAAAAAAEAEUExUWH/2gAIAQEAAT8hRcs+TdpLBuXYQm7/2gAMAwEAAgADAAAAEI8f/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxCewQf/xAAXEQEAAwAAAAAAAAAAAAAAAAAAEVFh/9oACAECAQE/EIs1f//EABwQAQACAwADAAAAAAAAAAAAAAEAESExYUGxwf/aAAgBAQABPxA23Wq8PcKLAhtR+Rq7OQu60S7zqBrPxYMr5T//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;b3y3IFb&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b3y3IFb-78bd84148bd9cbc2daaa3a048cc72def-f8fb9.jpg&quot;
+        srcset=&quot;/static/b3y3IFb-78bd84148bd9cbc2daaa3a048cc72def-e8976.jpg 148w,
+/static/b3y3IFb-78bd84148bd9cbc2daaa3a048cc72def-63df2.jpg 295w,
+/static/b3y3IFb-78bd84148bd9cbc2daaa3a048cc72def-f8fb9.jpg 590w,
+/static/b3y3IFb-78bd84148bd9cbc2daaa3a048cc72def-85e3d.jpg 885w,
+/static/b3y3IFb-78bd84148bd9cbc2daaa3a048cc72def-d1924.jpg 1180w,
+/static/b3y3IFb-78bd84148bd9cbc2daaa3a048cc72def-d556a.jpg 1248w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Minha inspiração principal foi o menu de Final Fantasy X, Final Fantasy XII e Dissidia Final Fantasy. Dá pra ver que acabou ficando muito mais próximo do X que do restante.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Bcx4p4u-ceb9acd20aa34eb55ea5c200d2be060d-cc542.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.692307692307686%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQP/2gAMAwEAAhADEAAAAZtyrkkGIv/EABkQAAIDAQAAAAAAAAAAAAAAAAABAxESIv/aAAgBAQABBQKNYJOxws06tmmf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAES/9oACAEDAQE/AZRKP//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8B1cv/xAAXEAADAQAAAAAAAAAAAAAAAAABEDEy/9oACAEBAAY/AqtBVf/EABoQAQEAAgMAAAAAAAAAAAAAAAEAEVEhMWH/2gAIAQEAAT8hRds+TcOZLAENiNl//9oADAMBAAIAAwAAABCDL//EABcRAQADAAAAAAAAAAAAAAAAAAABEUH/2gAIAQMBAT8Q3pC//8QAFxEAAwEAAAAAAAAAAAAAAAAAABExQf/aAAgBAgEBPxCqL0//xAAcEAEBAAICAwAAAAAAAAAAAAABEQAxIbFRYcH/2gAIAQEAAT8QNu7Lw7wqgM2o/Mauz1imMtLz4wwdmJte8//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Bcx4p4u&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Bcx4p4u-ceb9acd20aa34eb55ea5c200d2be060d-fb8a0.png&quot;
+        srcset=&quot;/static/Bcx4p4u-ceb9acd20aa34eb55ea5c200d2be060d-1a291.png 148w,
+/static/Bcx4p4u-ceb9acd20aa34eb55ea5c200d2be060d-2bc4a.png 295w,
+/static/Bcx4p4u-ceb9acd20aa34eb55ea5c200d2be060d-fb8a0.png 590w,
+/static/Bcx4p4u-ceb9acd20aa34eb55ea5c200d2be060d-526de.png 885w,
+/static/Bcx4p4u-ceb9acd20aa34eb55ea5c200d2be060d-fa2eb.png 1180w,
+/static/Bcx4p4u-ceb9acd20aa34eb55ea5c200d2be060d-cc542.png 1248w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;O que está mais pronto é o layout do menu de atores e o layout do menu de Grupo, ali embaixo e à esquerda (ActorCommand e PartyCommand).&lt;/p&gt;
+&lt;p&gt;O menu de poderes (Skill) ainda preciso resolver se ficará assim mesmo. Eu gostaria que o menu “Mochila” (Items) lembrasse o interior de uma mochila, mas não sei se conseguirei os recursos pra isso em tempo. Se os dois conseguirem ficar no mesmo estilo, eu vou deixá-los assim mesmo.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6dhoLW4-4cc4a4079e9d5fe3e2b99237afa409c9-cc542.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.692307692307686%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAADYElEQVQozx2Q20+TBxyGv/9hV0tmZuYWBy47iGTDMOS4xtFyFMqh5VAKbcFWNkBXYZZisawUEGj5CrS1RbC1oOCQKgc5FBBkLMJcNl24mc7dmex0/+zbLn/5Jc/7vo/wSeFxMg1ZpJtKyG6rQu03Ytl3E/vzIc//ecqLv57x298HTPy+jj4mohxqRtZSSUZ9GSe1SpJ1xSRVKkgqTePoyXiEBFkcKeoTnDZmkd+RR5GrjOqZBtp2Ogm9uMnmqxjbfyxx+2UYy44NTUhDaacSuUFBRrWMtNpMEhXH+Y9zOO51hBPph0lXHyW14hjZTR9yputj1IOpqF0yTFOV2JZbGd2z8c12C3VjOdT75FTaU1HUJJCS/64EPUZi1hHeSznEoXdeQ0jOe5OMoniKDacw2UuwhhsZWHIyth/hxrM5Jg4WuP1ql8jLNUYWh2l3NVNlLqbc+BmqejkZyiQ++Ogt3k94myPxbyA06uNoNSbjbM9lZKiaYMCAf0yPGGzAPViNOKjBE2hgyKfH1VuG/atsrBf1dDTXcMFsp6BMiyI1lXJZERU5yQjroxrWA3XEvNUseIpxX7QSvOQg5sllzVfBokfNsldLLKAnYstnXlSy4lex6q1iKXCWmF/Dqr/y//vb7kKEpeEqjA4dFpeBVZ+GkKWAgQtaxp1hVq63szNhYHtCRyxcx7hdy+b4F8R6KrgzoKLPXMOqu5SV4QruOQuJdJcj3PfU4Go9zdjlM0w785myfEq4PZvr9jbu9tcyY1cQ7Vex6C4j6sgl6irG3yQ17S8naC1gsjuHSUcOc11FhL6WI0RGzNyR2t0XdUQ8JsIjTYz3aYkGv2TW2yilqgh79NwaO09wqIlrznJCV3IJOZVM2+RMXpIxZVPgt8oJWGUI87M9bK+J/Ljr46fHE+xte7kmAfuvaFme72Vr7SpPvhP5ZW+UrQ0RsfccfRYlVouK4S4d3p4mAv1mhpwtkirJ4dY9G9+vXOXnRyLPn/h5+sjOTWmO16Jmf8PB7rKDH7ZEDva8/PrYzmRbJgHz50wN6piRls25a5kfbmDRdw6PMRPhbrCWlVstrM608jDazu6CCV+nAndrHg8mG6XfeWKzVjajVjamq/DoE/Ga0pjqKuFGRyEhyf345SLCnXn01CbxL3qYX5fNgE4ZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;6dhoLW4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6dhoLW4-4cc4a4079e9d5fe3e2b99237afa409c9-fb8a0.png&quot;
+        srcset=&quot;/static/6dhoLW4-4cc4a4079e9d5fe3e2b99237afa409c9-1a291.png 148w,
+/static/6dhoLW4-4cc4a4079e9d5fe3e2b99237afa409c9-2bc4a.png 295w,
+/static/6dhoLW4-4cc4a4079e9d5fe3e2b99237afa409c9-fb8a0.png 590w,
+/static/6dhoLW4-4cc4a4079e9d5fe3e2b99237afa409c9-526de.png 885w,
+/static/6dhoLW4-4cc4a4079e9d5fe3e2b99237afa409c9-fa2eb.png 1180w,
+/static/6dhoLW4-4cc4a4079e9d5fe3e2b99237afa409c9-cc542.png 1248w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;A tooltip do poder em si ainda não está boa (à direita), pois eu quero muito mais informações ali. Como estou capturando a &lt;code class=&quot;language-text&quot;&gt;log_window&lt;/code&gt; (ou seria &lt;code class=&quot;language-text&quot;&gt;help_window&lt;/code&gt;?) da &lt;code class=&quot;language-text&quot;&gt;Scene_Battle&lt;/code&gt; pra colocar esses dados, todas as informações da batalha estão indo ali. O ideal é criar uma &lt;code class=&quot;language-text&quot;&gt;help_window&lt;/code&gt; separada. Tenho a intenção também de fazer um plugin que leia as notetags de alguns dados extras, como Custo (energia, vida, especial, outra coisa?), Duração (se for melhoria, quanto tempo o alvo fica, em turnos), Recarga (Cooldown), Tempo de Lançamento (Cast Time), Alvo (1 inimigo, múltilpos inimigos, todos), etc - pra organizar e trazer a maior quantidade de informações possíveis sobre a magia. Parto do pressuposto que já que aquele personagem sabe lançar essa magia ele sabe muito bem sobre ela, certo? Isso terá que ser refletido também no menu principal das habilidades, quando aberto no mapa.&lt;/p&gt;
+&lt;p&gt;Devo trabalhar nas barras laterais do Medidor de Grupo (Party Gauge) vertical nas laterais ainda e aquele ícone horrível que ficou no caminho, mas deve sair em breve. Minha intenção ali é usar uma imagem mais apelativa, mas como ainda não consigo programar isso direito é possível que saia primeiro uma organização melhor, depois a parte visual.&lt;/p&gt;
+&lt;p&gt;Minha intenção é postar pelo menos 1 foto diferente da batalha por semana.&lt;/p&gt;
+&lt;p&gt;Se tiver alguma sugestão, por favor, me envie!&lt;/p&gt;</content:encoded></item></channel></rss>
