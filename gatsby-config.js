@@ -5,7 +5,7 @@ module.exports = {
     description: 'Progresso do jogo de RPG Lumi feito no RPG Maker MV',
     siteUrl: 'https://bsides.github.io/lumirpg',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  //  pathPrefix: '/blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
